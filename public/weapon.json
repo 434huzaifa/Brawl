@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Hammer",
+        "img": "https://cms.brawlhalla.com/c/uploads/2022/03/Hammer_Icon_2.png"
+    },
+    {
+        "name": "Sword",
+        "img": "https://cms.brawlhalla.com/c/uploads/2022/06/Sword_Icon_2.png"
+    },
+    {
+        "name": "Blaster",
+        "img": "https://cms.brawlhalla.com/c/uploads/2022/03/BlasterIcon2_96.jpg"
+    },
+    {
+        "name": "Axe",
+        "img": "https://cms.brawlhalla.com/c/uploads/2022/03/AxeIcon2_96_1.jpg"
+    },
+    {
+        "name": "Boots",
+        "img": "https://cms.brawlhalla.com/c/uploads/2023/01/boots-1-e1673854748156.png"
+    },
+    {
+        "name": "Gauntlet",
+        "img": "https://cms.brawlhalla.com/c/uploads/2022/06/Guantlets_Icon_1.png"
+    },
+    {
+        "name": "Bow",
+        "img": "https://cms.brawlhalla.com/c/uploads/2021/05/Bow_Icon.png"
+    },
+    {
+        "name": "Katar",
+        "img": "https://cms.brawlhalla.com/c/uploads/2022/03/Katar_Icon_2.png"
+    },
+    {
+        "name": "Greatsword",
+        "img": "https://cms.brawlhalla.com/c/uploads/2022/06/Greatsword2_Icon.jpg"
+    },
+    {
+        "name": "Orb",
+        "img": "https://cms.brawlhalla.com/c/uploads/2022/06/OrbIcon2_96_2.jpg"
+    },
+    {
+        "name": "Spear",
+        "img": "https://cms.brawlhalla.com/c/uploads/2022/03/SpearIcon2_96_1.jpg"
+    },
+    {
+        "name": "Lance",
+        "img": "https://cms.brawlhalla.com/c/uploads/2021/05/Lance_Icon.png"
+    },
+    {
+        "name": "Scythe",
+        "img": "https://cms.brawlhalla.com/c/uploads/2022/06/Scythe_Icon_1.png"
+    },
+    {
+        "name": "Cannon",
+        "img": "https://cms.brawlhalla.com/c/uploads/2022/06/CannonIcon2_96.jpg"
+    }
+]

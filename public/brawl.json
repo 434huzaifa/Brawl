@@ -1,0 +1,374 @@
+[
+  {
+    "name": "Ada",
+    "w1": "Blaster",
+    "w2": "Spear",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/ada.png"
+  },
+  {
+    "name": "Arcadia",
+    "w1": "Greatsword",
+    "w2": "Spear",
+    "img": "https://cms.brawlhalla.com/c/uploads/2022/03/a_Roster_Pose_FairyQueenM.png"
+  },
+  {
+    "name": "Artemis",
+    "w1": "Lance",
+    "w2": "Scythe",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_SpaceHunterM.png"
+  },
+  {
+    "name": "Asuri",
+    "w1": "Katar",
+    "w2": "Sword",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_CatM.png"
+  },
+  {
+    "name": "Azoth",
+    "w1": "Axe",
+    "w2": "Bow",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_AzothM.png"
+  },
+  {
+    "name": "Barraza",
+    "w1": "Axe",
+    "w2": "Blaster",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ApocM.png"
+  },
+  {
+    "name": "Bodvar",
+    "w1": "Hammer",
+    "w2": "Sword",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/bodvar.png"
+  },
+  {
+    "name": "Brynn",
+    "w1": "Axe",
+    "w2": "Spear",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ValkyrieM.png"
+  },
+  {
+    "name": "Caspian",
+    "w1": "Gauntlet",
+    "w2": "Katar",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ThiefM.png"
+  },
+  {
+    "name": "Cassidy",
+    "w1": "Blaster",
+    "w2": "Hammer",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/cassidy.png"
+  },
+  {
+    "name": "Cross",
+    "w1": "Blaster",
+    "w2": "Gauntlet",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_CrossM.png"
+  },
+  {
+    "name": "Diana",
+    "w1": "Blaster",
+    "w2": "Bow",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_MonsterHunterM.png"
+  },
+  {
+    "name": "Dusk",
+    "w1": "Orb",
+    "w2": "Spear",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ElfwarM.png"
+  },
+  {
+    "name": "Ember",
+    "w1": "Bow",
+    "w2": "Katar",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ElfM.png"
+  },
+  {
+    "name": "Ezio",
+    "w1": "Sword",
+    "w2": "Orb",
+    "img": "https://cms.brawlhalla.com/c/uploads/2022/07/a_Roster_Pose_EzioM.png"
+  },
+  {
+    "name": "Fait",
+    "w1": "Orb",
+    "w2": "Scythe",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_SpellwitchM.png"
+  },
+  {
+    "name": "Gnash",
+    "w1": "Spear",
+    "w2": "Hammer",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/gnash.png"
+  },
+  {
+    "name": "Hattori",
+    "w1": "Spear",
+    "w2": "Sword",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/hattori.png"
+  },
+  {
+    "name": "Isaiah",
+    "w1": "Blaster",
+    "w2": "Cannon",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_SoldierM.png"
+  },
+  {
+    "name": "Jaeyun",
+    "w1": "Greatsword",
+    "w2": "Sword",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_SellswordM.png"
+  },
+  {
+    "name": "Jhala",
+    "w1": "Axe",
+    "w2": "Sword",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_BarbarianM.png"
+  },
+  {
+    "name": "Jiro",
+    "w1": "Scythe",
+    "w2": "Sword",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ShinobiM.png"
+  },
+  {
+    "name": "Kaya",
+    "w1": "Spear",
+    "w2": "Bow",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_InuitM-1.png"
+  },
+  {
+    "name": "Koji",
+    "w1": "Bow",
+    "w2": "Sword",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_SamuraiM.png"
+  },
+  {
+    "name": "Kor",
+    "w1": "Gauntlet",
+    "w2": "Hammer",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_GolemM.png"
+  },
+  {
+    "name": "Lin Fei",
+    "w1": "Cannon",
+    "w2": "Katar",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_WuxiaM.png"
+  },
+  {
+    "name": "Loki",
+    "w1": "Katar",
+    "w2": "Scythe",
+    "img": "https://cms.brawlhalla.com/c/uploads/2023/09/Loki_icon-1.png"
+  },
+  {
+    "name": "Lord Vraxx",
+    "w1": "Blaster",
+    "w2": "Lance",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_VraxxM-1.png"
+  },
+  {
+    "name": "Lucien",
+    "w1": "Blaster",
+    "w2": "Katar",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/lucien.png"
+  },
+  {
+    "name": "Magyar",
+    "w1": "Greatsword",
+    "w2": "Hammer",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_GhostArmorM.png"
+  },
+  {
+    "name": "Mako",
+    "w1": "Katar",
+    "w2": "Greatsword",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ActualSharkM.png"
+  },
+  {
+    "name": "Mirage",
+    "w1": "Scythe",
+    "w2": "Spear",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_AssassinM.png"
+  },
+  {
+    "name": "Mordex",
+    "w1": "Gauntlet",
+    "w2": "Scythe",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_WerewolfM.png"
+  },
+  {
+    "name": "Munin",
+    "w1": "Bow",
+    "w2": "Scythe",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/12/a_Roster_Pose_BirdBardM.png"
+  },
+  {
+    "name": "Nix",
+    "w1": "Blaster",
+    "w2": "Scythe",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ReaperM.png"
+  },
+  {
+    "name": "Onyx",
+    "w1": "Gauntlet",
+    "w2": "Cannon",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_GargoyleM.png"
+  },
+  {
+    "name": "Orion",
+    "w1": "Lance",
+    "w2": "Spear",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/orion.png"
+  },
+  {
+    "name": "Petra",
+    "w1": "Gauntlet",
+    "w2": "Orb",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_RagefighterM.png"
+  },
+  {
+    "name": "Queen Nai",
+    "w1": "Katar",
+    "w2": "Spear",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/nai.png"
+  },
+  {
+    "name": "Ragnir",
+    "w1": "Axe",
+    "w2": "Katar",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_DragonM.png"
+  },
+  {
+    "name": "Rayman",
+    "w1": "Axe",
+    "w2": "Gauntlet",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_RaymanM.png"
+  },
+  {
+    "name": "Red Raptor",
+    "w1": "Boots",
+    "w2": "Orb",
+    "img": "https://cms.brawlhalla.com/c/uploads/2023/06/a_Roster_Pose_SentaiM.png"
+  },
+  {
+    "name": "Reno",
+    "w1": "Blaster",
+    "w2": "Orb",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_BountyHunterM.png"
+  },
+  {
+    "name": "Scarlet",
+    "w1": "Hammer",
+    "w2": "Lance",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/scarlet.png"
+  },
+  {
+    "name": "Sentinel",
+    "w1": "Hammer",
+    "w2": "Katar",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/sentinel.png"
+  },
+  {
+    "name": "Seven",
+    "w1": "Spear",
+    "w2": "Cannon",
+    "img": "https://cms.brawlhalla.com/c/uploads/2023/12/roboengineer-rostericon.png"
+  },
+  {
+    "name": "Sidra",
+    "w1": "Cannon",
+    "w2": "Sword",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_CorsairM.png"
+  },
+  {
+    "name": "Sir Roland",
+    "w1": "Lance",
+    "w2": "Sword",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/roland.png"
+  },
+  {
+    "name": "Teros",
+    "w1": "Axe",
+    "w2": "Hammer",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/teros.png"
+  },
+  {
+    "name": "Tezca",
+    "w1": "Boots",
+    "w2": "Gauntlet",
+    "img": "https://cms.brawlhalla.com/c/uploads/2022/12/a_Roster_Pose_LuchadorM.png"
+  },
+  {
+    "name": "Thatch",
+    "w1": "Blaster",
+    "w2": "Sword",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/thatch.png"
+  },
+  {
+    "name": "Thea",
+    "w1": "Boots",
+    "w2": "Lance",
+    "img": "https://cms.brawlhalla.com/c/uploads/2023/03/a_Roster_Pose_SpeedsterM.png"
+  },
+  {
+    "name": "Thor",
+    "w1": "Hammer",
+    "w2": "Orb",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ThorM.png"
+  },
+  {
+    "name": "Ulgrim",
+    "w1": "Axe",
+    "w2": "Lance",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_DwarfM.png"
+  },
+  {
+    "name": "Val",
+    "w1": "Gauntlet",
+    "w2": "Sword",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ValM.png"
+  },
+  {
+    "name": "Vector",
+    "w1": "Bow",
+    "w2": "Lance",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ActualRobotM.png"
+  },
+  {
+    "name": "Vivi",
+    "w1": "Boots",
+    "w2": "Blaster",
+    "img": "https://cms.brawlhalla.com/c/uploads/2024/04/Vivilegendpage.jpg"
+  },
+  {
+    "name": "Volkov",
+    "w1": "Axe",
+    "w2": "Scythe",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_VampLordM.png"
+  },
+  {
+    "name": "Wu Shang",
+    "w1": "Gauntlet",
+    "w2": "Spear",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_MonkM.png"
+  },
+  {
+    "name": "Xull",
+    "w1": "Axe",
+    "w2": "Cannon",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_BruteM.png"
+  },
+  {
+    "name": "Yumiko",
+    "w1": "Bow",
+    "w2": "Hammer",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_KitsuneM.png"
+  },
+  {
+    "name": "Zariel",
+    "w1": "Bow",
+    "w2": "Gauntlet",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_CelestialM.png"
+  }
+]
