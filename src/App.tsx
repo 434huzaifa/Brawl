@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Legends, Weapon } from "./Type.da";
-import { Card, Checkbox, Divider } from "antd";
+import { Card, Checkbox, Divider, Image } from "antd";
 import axios from "axios";
 function App() {
   const [data, setData] = useState<Legends[]>([]);
@@ -51,18 +51,26 @@ function App() {
     }
   }
   return (
-    <>
-      <div className="flex justify-center p-5 mb-5">
-        <Checkbox.Group
-          options={checkboxOptions}
-          onChange={checkOnChange}
-        ></Checkbox.Group>
+    <div className="bg-[#153448] min-h-[100vh]">
+      <div className="flex justify-center p-5 mb-5  ">
+        <Checkbox.Group onChange={checkOnChange} >
+          <div className="flex gap-3 justify-center flex-wrap">
+          {checkboxOptions.map((x) => {
+            return (
+              <>
+                <Checkbox value={x.value} ><span className="text-[#DFD0B8] text-xl font-semibold">{x.label}</span></Checkbox>
+              </>
+            );
+          })}
+          </div>
+          
+        </Checkbox.Group>
       </div>
-      <div className="grid grid-cols-11 gap-6 p-4">
-        <div className="col-span-11 grid grid-cols-11">
+      <div className="flex flex-wrap justify-center gap-2">
+        <div className="w-full gap-2 flex flex-wrap justify-center">
           {isChecked && (
-            <Divider className="col-span-11" orientation="left">
-              <p className="font-bold text-xl italic">Exact</p>
+            <Divider className="flex-1" orientation="left">
+              <p className="font-bold text-xl italic text-[#DBB5B5] ">Exact</p>
             </Divider>
           )}
 
@@ -87,22 +95,33 @@ function App() {
               return (
                 <Card
                   title={
-                    <p className="text-center font-bold text-xl">{x.name}</p>
+                    <p className="text-center font-bold text-xl text-[#F3D0D7]">{x.name}</p>
                   }
                   size="small"
+                  bordered={false}
+                  className="w-40 bg-[#3C5B6F]"
                 >
-                  <img alt="example" src={x.img} />
+                  <Image
+                    src={x.img}
+                    preview={{
+                      src: x.b_img,
+                      destroyOnClose: true,
+                    }}
+                    className="rounded"
+                  ></Image>
                   <div className="grid grid-cols-2">
-                    <img alt="example" src={img1} />
-                    <img alt="example" src={img2} />
+                    <img alt="example" src={img1} className="rounded" />
+                    <img alt="example" src={img2} className="rounded" />
                   </div>
                 </Card>
               );
             })}
         </div>
         {isChecked && (
-          <Divider className="col-span-11" orientation="left">
-            <p className="font-bold text-xl italic">At least One Weapon</p>
+          <Divider className="flex-1" style={{
+            color:"Red"
+          }} orientation="left">
+            <p className="font-bold text-xl italic text-[#DBB5B5]">At least One Weapon</p>
           </Divider>
         )}
         {newData.map((x) => {
@@ -120,19 +139,28 @@ function App() {
           }
           return (
             <Card
-              title={<p className="text-center font-bold text-xl">{x.name}</p>}
+              title={<p className="text-center font-bold text-xl text-[#F3D0D7]">{x.name}</p>}
               size="small"
+              className="w-40 bg-[#3C5B6F] "
+              bordered={false}
             >
-              <img alt="example" src={x.img} />
+              <Image
+                src={x.img}
+                preview={{
+                  src: x.b_img,
+                  destroyOnClose: true,
+                }}
+                className="rounded"
+              ></Image>
               <div className="grid grid-cols-2">
-                <img alt="example" src={img1} />
-                <img alt="example" src={img2} />
+                <img alt="example" src={img1} className="rounded" />
+                <img alt="example" src={img2} className="rounded" />
               </div>
             </Card>
           );
         })}
       </div>
-    </>
+    </div>
   );
 }
 

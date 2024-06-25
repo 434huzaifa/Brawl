@@ -4,6 +4,7 @@ export interface Legends{
     w1:string,
     w2:string,
     img:string,
+    b_img:string
 }
 export interface Weapon{
     name:string,
