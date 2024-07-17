@@ -425,5 +425,12 @@
       "w2": "Hammer",
       "img": "https://cms.brawlhalla.com/c/uploads/2021/07/cassidy.png",
       "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/CassidySplash-1.png"
+  },
+  {
+    "name":"Imugi",
+    "w1":"Axe",
+    "w2":"Greatsword",
+    "img":"https://i.ibb.co/cTRv2d0/news.png",
+    "b_img":"https://i.ibb.co/xMX2QM2/23-08-Brawlhalla-Brawlhalla-Game-Gc-Ye-Od-Jchk.png"
   }
 ]
