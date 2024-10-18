@@ -432,5 +432,12 @@
     "w2":"Greatsword",
     "b_img":"https://cms.brawlhalla.com/c/uploads/2024/07/Imugi-Splash.png",
     "img":"https://cms.brawlhalla.com/c/uploads/2024/07/imgui-icon.png"
+  },
+  {
+    "name":"King Zuva",
+    "w1":"Boots",
+    "w2":"Hammer",
+    "b_img":"https://cms.brawlhalla.com/c/uploads/2024/10/ZuvaSplash-1.png",
+    "img":"https://cms.brawlhalla.com/c/uploads/2024/10/a_Roster_Pose_ZuvaM.png"
   }
 ]
