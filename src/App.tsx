@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { Legends, Weapon } from "./Type.da";
 import { Card, Checkbox, Divider, Image } from "antd";
 import axios from "axios";
+import { Analytics } from "@vercel/analytics/react"
+
 function App() {
   const [data, setData] = useState<Legends[]>([]);
   const [newData, setNewData] = useState<Legends[]>([]);
@@ -160,6 +162,7 @@ function App() {
           );
         })}
       </div>
+      <Analytics />
     </div>
   );
 }
