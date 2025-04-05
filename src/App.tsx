@@ -286,7 +286,7 @@ function App() {
         <DividerWithCard data={newData} dividerTitle=""></DividerWithCard>
       </div>
       <div
-        className="bg-slate-400 cursor-pointer size-16 rounded-full border-2 flex justify-center items-center fixed bottom-4 right-4 z-10"
+        className="bg-red-400 cursor-pointer size-16 rounded-full border-2 flex justify-center items-center fixed bottom-4 right-4 z-10"
         onClick={() => window.open("https://forms.gle/2hM47qwwsoNhuJH46")}
         title="Feedback Form"
       >
