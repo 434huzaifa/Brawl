@@ -11,11 +11,15 @@
   },
   "dependencies": {
     "@vercel/analytics": "^1.4.1",
+    "jotai": "^2.12.2",
+    "loadsh": "^0.0.4",
+    "lodash": "^4.17.21",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@tanstack/react-query": "^5.45.1",
+    "@types/lodash": "^4.17.16",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^7.13.1",

@@ -22,9 +22,7 @@ const router = createBrowserRouter([
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <React.StrictMode>
     <QueryClientProvider client={qc}>
       <RouterProvider router={router} />
     </QueryClientProvider>
-  </React.StrictMode>
 );

@@ -1,15 +1,34 @@
-import { useEffect, useState } from "react";
-import { Legends, Weapon } from "./Type.da";
-import { Card, Checkbox, Divider, Image } from "antd";
+import { useEffect, useMemo, useState } from "react";
+import { Legends, Stats } from "./Type.da";
 import axios from "axios";
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
+import Filter from "./Filter/Index";
+import { useAtom, useAtomValue, useSetAtom } from "jotai";
+import {
+  isRandomStore,
+  selectedStanceStore,
+  selectedWeaponStore,
+  weaponListStore,
+} from "./Store";
+import DividerWithCard from "./Common/DividerWithCard";
 
 function App() {
   const [data, setData] = useState<Legends[]>([]);
+  const setWeaponList = useSetAtom(weaponListStore);
+  const selectedWeapon = useAtomValue(selectedWeaponStore);
+  const selectedStance = useAtomValue(selectedStanceStore);
+  const [isRandom, setIsRandom] = useAtom(isRandomStore);
   const [newData, setNewData] = useState<Legends[]>([]);
-  const [exact, setExact] = useState<Legends[]>([]);
-  const [isChecked, setIsChecked] = useState<boolean>(false);
-  const [weapons, setWeapon] = useState<Weapon[]>([]);
+  const [exactWeapon, setExactWeapon] = useState<Legends[]>([]);
+  const [exactStance, setExactStance] = useState<Legends[]>([]);
+  const [exactStanceAndWeapon, setExactStanceAndWeapon] = useState<Legends[]>(
+    []
+  );
+  const [randomData, setRandom] = useState<Legends[]>([]);
+  const [atLeastOneWeapon, setAtLeastOneWeapon] = useState<Legends[]>([]);
+  const [atLeastOneWeaponAndStance, setAtLeastOneWeaponAndStance] = useState<
+    Legends[]
+  >([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -18,150 +37,279 @@ function App() {
         setData(response.data);
         setNewData(response.data);
         const response2 = await axios.get("/weapon.json");
-        setWeapon(response2.data);
+        setWeaponList(response2.data);
       } catch (error) {
         console.error("Error fetching data: ", error);
       }
     };
-
     fetchData();
   }, []);
-  const checkboxOptions = weapons.map((x) => {
-    return { label: x.name, value: x.name };
-  });
-  function checkOnChange(value: string[]) {
-    if (value.length == 0) {
-      setNewData(data);
-      setIsChecked(false);
-    } else {
-      const t_data: Legends[] = [];
-      const t_exact: Legends[] = [];
-      data.forEach((x) => {
-        if (value.includes(x.w1)) {
-          if (value.includes(x.w2)) {
-            t_exact.push(x);
-          } else {
-            t_data.push(x);
+
+  function exactStanceCheck(
+    strength: undefined | number[],
+    dexterity: undefined | number[],
+    defense: undefined | number[],
+    speed: undefined | number[],
+    stat: Stats
+  ) {
+    if (strength && strength.includes(stat.strength)) {
+      if (dexterity && dexterity.includes(stat.dexterity)) {
+        if (defense && defense.includes(stat.defense)) {
+          if (speed && speed.includes(stat.speed)) {
+            return true;
           }
-        } else if (value.includes(x.w2)) {
-          t_data.push(x);
         }
-      });
-      setExact(t_exact);
-      setNewData(t_data);
-      setIsChecked(true);
+      }
+    }
+    return false;
+  }
+  function exactWeaponStanceDetector(object: Legends[], name: string): number {
+    let idx = -1;
+    object.forEach((x, i) => {
+      if (x.name == name) {
+        idx = i;
+        return;
+      }
+    });
+
+    return idx;
+  }
+  function weaponAndStance(
+    t_at_least_one_weapon: Legends[],
+    x: Legends,
+    t_exactStanceAndWeapon: Legends[],
+    t_exactWeapon: Legends[],
+    t_exactStance: Legends[],
+    t_exactStanceAndAtLeastOneWeapon: Legends[]
+  ) {
+    const idx = exactWeaponStanceDetector(
+      // one weapon matched -1 means no match but stance matched
+      t_at_least_one_weapon,
+      x.name
+    );
+    const idx2 = exactWeaponStanceDetector(t_exactWeapon, x.name);
+    if (idx2 !== -1) {
+      t_exactStanceAndWeapon.push(x);
+      t_exactWeapon.splice(idx2, 1);
+    } else if (idx !== -1) {
+      t_exactStanceAndAtLeastOneWeapon.push(x);
+      t_at_least_one_weapon.splice(idx, 1);
+    } else {
+      t_exactStance.push(x);
     }
   }
-  return (
-    <div className="bg-[#153448] min-h-[100vh]">
-      <div className="flex justify-center p-5 mb-5  ">
-        <Checkbox.Group onChange={checkOnChange} >
-          <div className="flex gap-3 justify-center flex-wrap">
-          {checkboxOptions.map((x) => {
-            return (
-              <>
-                <Checkbox value={x.value} ><span className="text-[#DFD0B8] text-xl font-semibold">{x.label}</span></Checkbox>
-              </>
-            );
-          })}
-          </div>
-          
-        </Checkbox.Group>
-      </div>
-      <div className="flex flex-wrap justify-center gap-2">
-        <div className="w-full gap-2 flex flex-wrap justify-center">
-          {isChecked && (
-            <Divider className="flex-1" orientation="left">
-              <p className="font-bold text-xl italic text-[#DBB5B5] ">Exact</p>
-            </Divider>
-          )}
+  function getRandomNumber(min: number, max: number) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+  useMemo(() => {
+    if (isRandom>=1) {
+      const t_data = [
+        ...newData,
+        ...exactWeapon,
+        ...exactStance,
+        ...exactStanceAndWeapon,
+        ...atLeastOneWeapon,
+        ...atLeastOneWeaponAndStance,
+      ];
+      const randomData = t_data[getRandomNumber(0, t_data.length - 1)];
+      setRandom([randomData]);
+    }else{
+      setIsRandom(0)
+      setRandom([])
+    }
+  }, [isRandom]);
+  useMemo(() => {
+    if (
+      selectedWeapon.length == 0 &&
+      !selectedStance.defense.length &&
+      !selectedStance.dexterity.length &&
+      !selectedStance.speed.length &&
+      !selectedStance.strength.length
+    ) {
+      setNewData(data);
+      setRandom([]);
+      setAtLeastOneWeaponAndStance([]);
+      setExactStanceAndWeapon([]);
+      setExactStance([]);
+      setExactWeapon([]);
+      setAtLeastOneWeapon([]);
+    } else {
+      const t_at_least_one_weapon: Legends[] = [];
+      const t_exactWeapon: Legends[] = [];
+      const t_exactStanceAndWeapon: Legends[] = [];
+      const t_exactStance: Legends[] = [];
+      const t_exactStanceAndAtLeastOneWeapon: Legends[] = [];
 
-          {exact &&
-            exact.map((x) => {
-              let img1: Weapon[] | string = weapons.filter(
-                (y) => y.name == x.w1
-              );
-              if (img1) {
-                img1 = img1[0]?.img;
-              } else {
-                img1 = "";
-              }
-              let img2: Weapon[] | string = weapons.filter(
-                (y) => y.name == x.w2
-              );
-              if (img2) {
-                img2 = img2[0]?.img;
-              } else {
-                img2 = "";
-              }
-              return (
-                <Card
-                  title={
-                    <p className="text-center font-bold text-xl text-[#F3D0D7]">{x.name}</p>
-                  }
-                  size="small"
-                  bordered={false}
-                  className="w-40 bg-[#3C5B6F]"
-                >
-                  <Image
-                    src={x.img}
-                    preview={{
-                      src: x.b_img,
-                      destroyOnClose: true,
-                    }}
-                    className="rounded"
-                  ></Image>
-                  <div className="grid grid-cols-2">
-                    <img alt="example" src={img1} className="rounded" />
-                    <img alt="example" src={img2} className="rounded" />
-                  </div>
-                </Card>
-              );
-            })}
-        </div>
-        {isChecked && (
-          <Divider className="flex-1" style={{
-            color:"Red"
-          }} orientation="left">
-            <p className="font-bold text-xl italic text-[#DBB5B5]">At least One Weapon</p>
-          </Divider>
-        )}
-        {newData.map((x) => {
-          let img1: Weapon[] | string = weapons.filter((y) => y.name == x.w1);
-          if (img1) {
-            img1 = img1[0]?.img;
-          } else {
-            img1 = "";
+      data.forEach((x) => {
+        if (selectedWeapon.length) {
+          if (selectedWeapon.includes(x.w1)) {
+            if (selectedWeapon.includes(x.w2)) {
+              t_exactWeapon.push(x);
+            } else {
+              t_at_least_one_weapon.push(x);
+            }
+          } else if (selectedWeapon.includes(x.w2)) {
+            if (selectedWeapon.includes(x.w1)) {
+              t_exactWeapon.push(x);
+            } else {
+              t_at_least_one_weapon.push(x);
+            }
           }
-          let img2: Weapon[] | string = weapons.filter((y) => y.name == x.w2);
-          if (img2) {
-            img2 = img2[0]?.img;
-          } else {
-            img2 = "";
-          }
-          return (
-            <Card
-              title={<p className="text-center font-bold text-xl text-[#F3D0D7]">{x.name}</p>}
-              size="small"
-              className="w-40 bg-[#3C5B6F] "
-              bordered={false}
-            >
-              <Image
-                src={x.img}
-                preview={{
-                  src: x.b_img,
-                  destroyOnClose: true,
-                }}
-                className="rounded"
-              ></Image>
-              <div className="grid grid-cols-2">
-                <img alt="example" src={img1} className="rounded" />
-                <img alt="example" src={img2} className="rounded" />
-              </div>
-            </Card>
+        }
+
+        if (
+          exactStanceCheck(
+            selectedStance.strength,
+            selectedStance.dexterity,
+            selectedStance.defense,
+            selectedStance.speed,
+            x.stats.base
+          )
+        ) {
+          weaponAndStance(
+            t_at_least_one_weapon,
+            x,
+            t_exactStanceAndWeapon,
+            t_exactWeapon,
+            t_exactStance,
+            t_exactStanceAndAtLeastOneWeapon
           );
-        })}
+        } else if (
+          exactStanceCheck(
+            selectedStance.strength,
+            selectedStance.dexterity,
+            selectedStance.defense,
+            selectedStance.speed,
+            x.stats.strength
+          )
+        ) {
+          weaponAndStance(
+            t_at_least_one_weapon,
+            x,
+            t_exactStanceAndWeapon,
+            t_exactWeapon,
+            t_exactStance,
+            t_exactStanceAndAtLeastOneWeapon
+          );
+        } else if (
+          exactStanceCheck(
+            selectedStance.strength,
+            selectedStance.dexterity,
+            selectedStance.defense,
+            selectedStance.speed,
+            x.stats.dexterity
+          )
+        ) {
+          weaponAndStance(
+            t_at_least_one_weapon,
+            x,
+            t_exactStanceAndWeapon,
+            t_exactWeapon,
+            t_exactStance,
+            t_exactStanceAndAtLeastOneWeapon
+          );
+        } else if (
+          exactStanceCheck(
+            selectedStance.strength,
+            selectedStance.dexterity,
+            selectedStance.defense,
+            selectedStance.speed,
+            x.stats.defense
+          )
+        ) {
+          weaponAndStance(
+            t_at_least_one_weapon,
+            x,
+            t_exactStanceAndWeapon,
+            t_exactWeapon,
+            t_exactStance,
+            t_exactStanceAndAtLeastOneWeapon
+          );
+        } else if (
+          exactStanceCheck(
+            selectedStance.strength,
+            selectedStance.dexterity,
+            selectedStance.defense,
+            selectedStance.speed,
+            x.stats.speed
+          )
+        ) {
+          weaponAndStance(
+            t_at_least_one_weapon,
+            x,
+            t_exactStanceAndWeapon,
+            t_exactWeapon,
+            t_exactStance,
+            t_exactStanceAndAtLeastOneWeapon
+          );
+        }
+      });
+
+      setAtLeastOneWeaponAndStance(t_exactStanceAndAtLeastOneWeapon);
+      setExactStanceAndWeapon(t_exactStanceAndWeapon);
+      setExactStance(t_exactStance);
+      setExactWeapon(t_exactWeapon);
+      setAtLeastOneWeapon(t_at_least_one_weapon);
+      setNewData([]);
+    }
+  }, [selectedWeapon, selectedStance]);
+
+  return (
+    <div className="bg-[#153448] relative min-h-screen">
+      <Filter></Filter>
+      <div className="flex flex-col">
+        {/* <div className="grid grid-cols-5"> */}
+        <DividerWithCard
+          data={randomData}
+          dividerTitle="Random"
+        ></DividerWithCard>
+        <DividerWithCard
+          data={exactStanceAndWeapon}
+          dividerTitle="Exact Stance and Weapon"
+        ></DividerWithCard>
+        <DividerWithCard
+          data={exactWeapon}
+          dividerTitle="Exact Weapon"
+        ></DividerWithCard>
+        <DividerWithCard
+          data={exactStance}
+          dividerTitle="At Least One Stance"
+        ></DividerWithCard>
+        <DividerWithCard
+          data={atLeastOneWeaponAndStance}
+          dividerTitle="At Least One Stance and one Weapon"
+        ></DividerWithCard>
+        <DividerWithCard
+          data={atLeastOneWeapon}
+          dividerTitle="At least One Weapon"
+        ></DividerWithCard>
+        <DividerWithCard data={newData} dividerTitle=""></DividerWithCard>
       </div>
+      <div
+        className="bg-slate-400 cursor-pointer size-16 rounded-full border-2 flex justify-center items-center fixed bottom-4 right-4 z-10"
+        onClick={() => window.open("https://forms.gle/2hM47qwwsoNhuJH46")}
+        title="Feedback Form"
+      >
+        <img
+          src="/feedback.png"
+          alt="Feedback Form"
+          title="Feedback Form"
+          className="size-12"
+        />
+      </div>
+      {randomData.length == 0 &&
+      exactStanceAndWeapon.length == 0 &&
+      exactWeapon.length == 0 &&
+      exactStance.length == 0 &&
+      atLeastOneWeaponAndStance.length == 0 &&
+      atLeastOneWeapon.length == 0 &&
+      newData.length == 0 ? (
+        <div className="text-center text-red-300 text-2xl font-bold mt-5">
+          No Data
+        </div>
+      ) : (
+        <></>
+      )}
       <Analytics />
     </div>
   );
