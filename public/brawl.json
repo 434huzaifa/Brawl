@@ -1,2537 +1,926 @@
 [
   {
-      "name": "Zariel",
-      "stats": {
-          "base": {
-              "strength": 7,
-              "dexterity": 4,
-              "defense": 7,
-              "speed": 4
-          },
-          "strength": {
-              "strength": 8,
-              "dexterity": 4,
-              "defense": 6,
-              "speed": 4
-          },
-          "dexterity": {
-              "strength": 7,
-              "dexterity": 5,
-              "defense": 7,
-              "speed": 3
-          },
-          "defense": {
-              "strength": 7,
-              "dexterity": 3,
-              "defense": 8,
-              "speed": 4
-          },
-          "speed": {
-              "strength": 6,
-              "dexterity": 4,
-              "defense": 7,
-              "speed": 5
-          }
-      },
-      "w1": "Gauntlets",
-      "w2": "Bow",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_CelestialM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/ZarielSplash.png"
-  },
-  {
-      "name": "Yumiko",
-      "stats": {
-          "base": {
-              "strength": 4,
-              "dexterity": 7,
-              "defense": 4,
-              "speed": 7
-          },
-          "strength": {
-              "strength": 5,
-              "dexterity": 6,
-              "defense": 4,
-              "speed": 7
-          },
-          "dexterity": {
-              "strength": 4,
-              "dexterity": 8,
-              "defense": 4,
-              "speed": 6
-          },
-          "defense": {
-              "strength": 3,
-              "dexterity": 7,
-              "defense": 5,
-              "speed": 7
-          },
-          "speed": {
-              "strength": 4,
-              "dexterity": 7,
-              "defense": 3,
-              "speed": 8
-          }
-      },
-      "w1": "Bow",
-      "w2": "Grapple Hammer",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_KitsuneM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/Yumiko1.png"
-  },
-  {
-      "name": "Xull",
-      "stats": {
-          "base": {
-              "strength": 9,
-              "dexterity": 4,
-              "defense": 5,
-              "speed": 4
-          },
-          "strength": {
-              "strength": 10,
-              "dexterity": 4,
-              "defense": 4,
-              "speed": 4
-          },
-          "dexterity": {
-              "strength": 9,
-              "dexterity": 5,
-              "defense": 5,
-              "speed": 3
-          },
-          "defense": {
-              "strength": 9,
-              "dexterity": 3,
-              "defense": 6,
-              "speed": 4
-          },
-          "speed": {
-              "strength": 8,
-              "dexterity": 4,
-              "defense": 5,
-              "speed": 5
-          }
-      },
-      "w1": "Cannon",
-      "w2": "Axe",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_BruteM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/UpdatedXull.png"
-  },
-  {
-      "name": "Wu Shang",
-      "stats": {
-          "base": {
-              "strength": 5,
-              "dexterity": 7,
-              "defense": 5,
-              "speed": 5
-          },
-          "strength": {
-              "strength": 6,
-              "dexterity": 6,
-              "defense": 5,
-              "speed": 5
-          },
-          "dexterity": {
-              "strength": 5,
-              "dexterity": 8,
-              "defense": 4,
-              "speed": 5
-          },
-          "defense": {
-              "strength": 5,
-              "dexterity": 7,
-              "defense": 6,
-              "speed": 4
-          },
-          "speed": {
-              "strength": 4,
-              "dexterity": 7,
-              "defense": 5,
-              "speed": 6
-          }
-      },
-      "w1": "Gauntlets",
-      "w2": "Spear",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_MonkM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/03/WuShangSplash.png"
-  },
-  {
-      "name": "Lord Vraxx",
-      "stats": {
-          "base": {
-              "strength": 4,
-              "dexterity": 8,
-              "defense": 4,
-              "speed": 6
-          },
-          "strength": {
-              "strength": 5,
-              "dexterity": 7,
-              "defense": 4,
-              "speed": 6
-          },
-          "dexterity": {
-              "strength": 4,
-              "dexterity": 9,
-              "defense": 4,
-              "speed": 5
-          },
-          "defense": {
-              "strength": 3,
-              "dexterity": 8,
-              "defense": 5,
-              "speed": 6
-          },
-          "speed": {
-              "strength": 4,
-              "dexterity": 8,
-              "defense": 3,
-              "speed": 7
-          }
-      },
-      "w1": "Rocket Lance",
-      "w2": "Blasters",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_VraxxM-1.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/VraxxSplash.png"
-  },
-  {
-      "name": "Volkov",
-      "stats": {
-          "base": {
-              "strength": 4,
-              "dexterity": 8,
-              "defense": 6,
-              "speed": 4
-          },
-          "strength": {
-              "strength": 5,
-              "dexterity": 7,
-              "defense": 6,
-              "speed": 4
-          },
-          "dexterity": {
-              "strength": 4,
-              "dexterity": 9,
-              "defense": 5,
-              "speed": 4
-          },
-          "defense": {
-              "strength": 4,
-              "dexterity": 8,
-              "defense": 7,
-              "speed": 3
-          },
-          "speed": {
-              "strength": 3,
-              "dexterity": 8,
-              "defense": 6,
-              "speed": 5
-          }
-      },
-      "w1": "Axe",
-      "w2": "Scythe",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_VampLordM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/VolkovSplash.png"
-  },
-  {
-      "name": "Vivi",
-      "stats": {
-          "base": {
-              "strength": 6,
-              "dexterity": 5,
-              "defense": 4,
-              "speed": 7
-          },
-          "strength": {
-              "strength": 7,
-              "dexterity": 4,
-              "defense": 4,
-              "speed": 7
-          },
-          "dexterity": {
-              "strength": 6,
-              "dexterity": 6,
-              "defense": 3,
-              "speed": 7
-          },
-          "defense": {
-              "strength": 6,
-              "dexterity": 5,
-              "defense": 5,
-              "speed": 6
-          },
-          "speed": {
-              "strength": 5,
-              "dexterity": 5,
-              "defense": 4,
-              "speed": 8
-          }
-      },
-      "w1": "Battle Boots",
-      "w2": "Blasters",
-      "img": "https://cms.brawlhalla.com/c/uploads/2024/04/Vivilegendpage.jpg",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2024/04/vivisplash_final.png"
-  },
-  {
-      "name": "Vector",
-      "stats": {
-          "base": {
-              "strength": 5,
-              "dexterity": 4,
-              "defense": 6,
-              "speed": 7
-          },
-          "strength": {
-              "strength": 6,
-              "dexterity": 3,
-              "defense": 6,
-              "speed": 7
-          },
-          "dexterity": {
-              "strength": 5,
-              "dexterity": 5,
-              "defense": 6,
-              "speed": 6
-          },
-          "defense": {
-              "strength": 4,
-              "dexterity": 4,
-              "defense": 7,
-              "speed": 7
-          },
-          "speed": {
-              "strength": 5,
-              "dexterity": 4,
-              "defense": 5,
-              "speed": 8
-          }
-      },
-      "w1": "Rocket Lance",
-      "w2": "Bow",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ActualRobotM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/VectorSplash.png"
-  },
-  {
-      "name": "Val",
-      "stats": {
-          "base": {
-              "strength": 4,
-              "dexterity": 5,
-              "defense": 6,
-              "speed": 7
-          },
-          "strength": {
-              "strength": 5,
-              "dexterity": 5,
-              "defense": 6,
-              "speed": 6
-          },
-          "dexterity": {
-              "strength": 3,
-              "dexterity": 6,
-              "defense": 6,
-              "speed": 7
-          },
-          "defense": {
-              "strength": 4,
-              "dexterity": 4,
-              "defense": 7,
-              "speed": 7
-          },
-          "speed": {
-              "strength": 4,
-              "dexterity": 5,
-              "defense": 5,
-              "speed": 8
-          }
-      },
-      "w1": "Gauntlets",
-      "w2": "Sword",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ValM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/ValSplash.png"
-  },
-  {
-      "name": "Ulgrim",
-      "stats": {
-          "base": {
-              "strength": 6,
-              "dexterity": 3,
-              "defense": 7,
-              "speed": 6
-          },
-          "strength": {
-              "strength": 7,
-              "dexterity": 3,
-              "defense": 7,
-              "speed": 5
-          },
-          "dexterity": {
-              "strength": 6,
-              "dexterity": 4,
-              "defense": 6,
-              "speed": 6
-          },
-          "defense": {
-              "strength": 5,
-              "dexterity": 3,
-              "defense": 8,
-              "speed": 6
-          },
-          "speed": {
-              "strength": 6,
-              "dexterity": 2,
-              "defense": 7,
-              "speed": 7
-          }
-      },
-      "w1": "Axe",
-      "w2": "Rocket Lance",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_DwarfM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/03/UlgrimSplash.png"
-  },
-  {
-      "name": "Thor",
-      "stats": {
-          "base": {
-              "strength": 6,
-              "dexterity": 4,
-              "defense": 7,
-              "speed": 5
-          },
-          "strength": {
-              "strength": 7,
-              "dexterity": 4,
-              "defense": 7,
-              "speed": 4
-          },
-          "dexterity": {
-              "strength": 6,
-              "dexterity": 5,
-              "defense": 6,
-              "speed": 5
-          },
-          "defense": {
-              "strength": 5,
-              "dexterity": 4,
-              "defense": 8,
-              "speed": 5
-          },
-          "speed": {
-              "strength": 6,
-              "dexterity": 3,
-              "defense": 7,
-              "speed": 6
-          }
-      },
-      "w1": "Grapple Hammer",
-      "w2": "Orb",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ThorM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/ThorSplash_Isolated.png"
-  },
-  {
-      "name": "Thea",
-      "stats": {
-          "base": {
-              "strength": 4,
-              "dexterity": 6,
-              "defense": 3,
-              "speed": 9
-          },
-          "strength": {
-              "strength": 5,
-              "dexterity": 5,
-              "defense": 3,
-              "speed": 9
-          },
-          "dexterity": {
-              "strength": 4,
-              "dexterity": 7,
-              "defense": 3,
-              "speed": 8
-          },
-          "defense": {
-              "strength": 3,
-              "dexterity": 6,
-              "defense": 4,
-              "speed": 9
-          },
-          "speed": {
-              "strength": 4,
-              "dexterity": 6,
-              "defense": 2,
-              "speed": 10
-          }
-      },
-      "w1": "Battle Boots",
-      "w2": "Rocket Lance",
-      "img": "https://cms.brawlhalla.com/c/uploads/2023/03/a_Roster_Pose_SpeedsterM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2023/03/theasplashspeedster.png"
-  },
-  {
-      "name": "Thatch",
-      "stats": {
-          "base": {
-              "strength": 7,
-              "dexterity": 5,
-              "defense": 3,
-              "speed": 7
-          },
-          "strength": {
-              "strength": 8,
-              "dexterity": 4,
-              "defense": 3,
-              "speed": 7
-          },
-          "dexterity": {
-              "strength": 7,
-              "dexterity": 6,
-              "defense": 2,
-              "speed": 7
-          },
-          "defense": {
-              "strength": 7,
-              "dexterity": 5,
-              "defense": 4,
-              "speed": 6
-          },
-          "speed": {
-              "strength": 6,
-              "dexterity": 5,
-              "defense": 3,
-              "speed": 8
-          }
-      },
-      "w1": "Sword",
-      "w2": "Blasters",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/thatch.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/UpdatedThatch.png"
-  },
-  {
-      "name": "Tezca",
-      "stats": {
-          "base": {
-              "strength": 7,
-              "dexterity": 5,
-              "defense": 5,
-              "speed": 5
-          },
-          "strength": {
-              "strength": 8,
-              "dexterity": 4,
-              "defense": 5,
-              "speed": 5
-          },
-          "dexterity": {
-              "strength": 7,
-              "dexterity": 6,
-              "defense": 4,
-              "speed": 5
-          },
-          "defense": {
-              "strength": 7,
-              "dexterity": 5,
-              "defense": 6,
-              "speed": 4
-          },
-          "speed": {
-              "strength": 6,
-              "dexterity": 5,
-              "defense": 5,
-              "speed": 6
-          }
-      },
-      "w1": "Battle Boots",
-      "w2": "Gauntlets",
-      "img": "https://cms.brawlhalla.com/c/uploads/2022/12/a_Roster_Pose_LuchadorM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2023/01/TezcaSplash_NoRing_Crop.png"
-  },
-  {
-      "name": "Teros",
-      "stats": {
-          "base": {
-              "strength": 8,
-              "dexterity": 3,
-              "defense": 6,
-              "speed": 5
-          },
-          "strength": {
-              "strength": 9,
-              "dexterity": 3,
-              "defense": 5,
-              "speed": 5
-          },
-          "dexterity": {
-              "strength": 7,
-              "dexterity": 4,
-              "defense": 6,
-              "speed": 5
-          },
-          "defense": {
-              "strength": 8,
-              "dexterity": 3,
-              "defense": 7,
-              "speed": 4
-          },
-          "speed": {
-              "strength": 8,
-              "dexterity": 2,
-              "defense": 6,
-              "speed": 6
-          }
-      },
-      "w1": "Axe",
-      "w2": "Grapple Hammer",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/teros.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/TerosSplash.png"
-  },
-  {
-      "name": "Sir Roland",
-      "stats": {
-          "base": {
-              "strength": 5,
-              "dexterity": 5,
-              "defense": 8,
-              "speed": 4
-          },
-          "strength": {
-              "strength": 6,
-              "dexterity": 5,
-              "defense": 8,
-              "speed": 3
-          },
-          "dexterity": {
-              "strength": 4,
-              "dexterity": 6,
-              "defense": 8,
-              "speed": 4
-          },
-          "defense": {
-              "strength": 5,
-              "dexterity": 4,
-              "defense": 9,
-              "speed": 4
-          },
-          "speed": {
-              "strength": 5,
-              "dexterity": 5,
-              "defense": 7,
-              "speed": 5
-          }
-      },
-      "w1": "Rocket Lance",
-      "w2": "Sword",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/roland.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/RolandSplash.png"
-  },
-  {
-      "name": "Sidra",
-      "stats": {
-          "base": {
-              "strength": 6,
-              "dexterity": 4,
-              "defense": 6,
-              "speed": 6
-          },
-          "strength": {
-              "strength": 7,
-              "dexterity": 4,
-              "defense": 6,
-              "speed": 5
-          },
-          "dexterity": {
-              "strength": 5,
-              "dexterity": 5,
-              "defense": 6,
-              "speed": 6
-          },
-          "defense": {
-              "strength": 6,
-              "dexterity": 3,
-              "defense": 7,
-              "speed": 6
-          },
-          "speed": {
-              "strength": 6,
-              "dexterity": 4,
-              "defense": 5,
-              "speed": 7
-          }
-      },
-      "w1": "Cannon",
-      "w2": "Sword",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_CorsairM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/SidraSplash.png"
-  },
-  {
-      "name": "Seven",
-      "stats": {
-          "base": {
-              "strength": 7,
-              "dexterity": 3,
-              "defense": 8,
-              "speed": 4
-          },
-          "strength": {
-              "strength": 8,
-              "dexterity": 3,
-              "defense": 8,
-              "speed": 3
-          },
-          "dexterity": {
-              "strength": 7,
-              "dexterity": 4,
-              "defense": 7,
-              "speed": 4
-          },
-          "defense": {
-              "strength": 6,
-              "dexterity": 3,
-              "defense": 9,
-              "speed": 4
-          },
-          "speed": {
-              "strength": 7,
-              "dexterity": 2,
-              "defense": 8,
-              "speed": 5
-          }
-      },
-      "w1": "Spear",
-      "w2": "Cannon",
-      "img": "https://cms.brawlhalla.com/c/uploads/2023/12/roboengineer-rostericon.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2023/12/seven-splash.png"
-  },
-  {
-      "name": "Sentinel",
-      "stats": {
-          "base": {
-              "strength": 5,
-              "dexterity": 4,
-              "defense": 7,
-              "speed": 6
-          },
-          "strength": {
-              "strength": 6,
-              "dexterity": 3,
-              "defense": 7,
-              "speed": 6
-          },
-          "dexterity": {
-              "strength": 5,
-              "dexterity": 5,
-              "defense": 6,
-              "speed": 6
-          },
-          "defense": {
-              "strength": 5,
-              "dexterity": 4,
-              "defense": 8,
-              "speed": 5
-          },
-          "speed": {
-              "strength": 4,
-              "dexterity": 4,
-              "defense": 7,
-              "speed": 7
-          }
-      },
-      "w1": "Grapple Hammer",
-      "w2": "Katars",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/sentinel.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/UpdatedSentinel.png"
-  },
-  {
-      "name": "Scarlet",
-      "stats": {
-          "base": {
-              "strength": 8,
-              "dexterity": 5,
-              "defense": 5,
-              "speed": 4
-          },
-          "strength": {
-              "strength": 9,
-              "dexterity": 5,
-              "defense": 4,
-              "speed": 4
-          },
-          "dexterity": {
-              "strength": 8,
-              "dexterity": 6,
-              "defense": 5,
-              "speed": 3
-          },
-          "defense": {
-              "strength": 8,
-              "dexterity": 4,
-              "defense": 6,
-              "speed": 4
-          },
-          "speed": {
-              "strength": 7,
-              "dexterity": 5,
-              "defense": 5,
-              "speed": 5
-          }
-      },
-      "w1": "Grapple Hammer",
-      "w2": "Rocket Lance",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/scarlet.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/ScarletSplash.png"
-  },
-  {
-      "name": "Reno",
-      "stats": {
-          "base": {
-              "strength": 4,
-              "dexterity": 7,
-              "defense": 6,
-              "speed": 5
-          },
-          "strength": {
-              "strength": 5,
-              "dexterity": 6,
-              "defense": 6,
-              "speed": 5
-          },
-          "dexterity": {
-              "strength": 4,
-              "dexterity": 8,
-              "defense": 5,
-              "speed": 5
-          },
-          "defense": {
-              "strength": 4,
-              "dexterity": 7,
-              "defense": 7,
-              "speed": 4
-          },
-          "speed": {
-              "strength": 3,
-              "dexterity": 7,
-              "defense": 6,
-              "speed": 6
-          }
-      },
-      "w1": "Blasters",
-      "w2": "Orb",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_BountyHunterM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/Reno-Splash0001.png"
-  },
-  {
-      "name": "Red Raptor",
-      "stats": {
-          "base": {
-              "strength": 6,
-              "dexterity": 6,
-              "defense": 4,
-              "speed": 6
-          },
-          "strength": {
-              "strength": 7,
-              "dexterity": 5,
-              "defense": 4,
-              "speed": 6
-          },
-          "dexterity": {
-              "strength": 6,
-              "dexterity": 7,
-              "defense": 3,
-              "speed": 6
-          },
-          "defense": {
-              "strength": 6,
-              "dexterity": 6,
-              "defense": 5,
-              "speed": 5
-          },
-          "speed": {
-              "strength": 5,
-              "dexterity": 6,
-              "defense": 4,
-              "speed": 7
-          }
-      },
-      "w1": "Battle Boots",
-      "w2": "Orb",
-      "img": "https://cms.brawlhalla.com/c/uploads/2023/06/a_Roster_Pose_SentaiM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2023/06/a__AnimationSplashArtSentai.png"
-  },
-  {
-      "name": "Rayman",
-      "stats": {
-          "base": {
-              "strength": 5,
-              "dexterity": 5,
-              "defense": 6,
-              "speed": 6
-          },
-          "strength": {
-              "strength": 6,
-              "dexterity": 5,
-              "defense": 5,
-              "speed": 6
-          },
-          "dexterity": {
-              "strength": 4,
-              "dexterity": 6,
-              "defense": 6,
-              "speed": 6
-          },
-          "defense": {
-              "strength": 5,
-              "dexterity": 5,
-              "defense": 7,
-              "speed": 5
-          },
-          "speed": {
-              "strength": 5,
-              "dexterity": 4,
-              "defense": 6,
-              "speed": 7
-          }
-      },
-      "w1": "Gauntlets",
-      "w2": "Axe",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_RaymanM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/RaymanSplash_Single.png"
-  },
-  {
-      "name": "Ragnir",
-      "stats": {
-          "base": {
-              "strength": 5,
-              "dexterity": 6,
-              "defense": 6,
-              "speed": 5
-          },
-          "strength": {
-              "strength": 6,
-              "dexterity": 6,
-              "defense": 5,
-              "speed": 5
-          },
-          "dexterity": {
-              "strength": 5,
-              "dexterity": 7,
-              "defense": 6,
-              "speed": 4
-          },
-          "defense": {
-              "strength": 5,
-              "dexterity": 5,
-              "defense": 7,
-              "speed": 5
-          },
-          "speed": {
-              "strength": 4,
-              "dexterity": 6,
-              "defense": 6,
-              "speed": 6
-          }
-      },
-      "w1": "Katars",
-      "w2": "Axe",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_DragonM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/RagnirSplash.png"
-  },
-  {
-      "name": "Priya",
-      "stats": {
-          "base": {
-              "strength": 4,
-              "dexterity": 6,
-              "defense": 5,
-              "speed": 7
-          },
-          "strength": {
-              "strength": 5,
-              "dexterity": 6,
-              "defense": 5,
-              "speed": 6
-          },
-          "dexterity": {
-              "strength": 4,
-              "dexterity": 7,
-              "defense": 4,
-              "speed": 7
-          },
-          "defense": {
-              "strength": 3,
-              "dexterity": 6,
-              "defense": 6,
-              "speed": 7
-          },
-          "speed": {
-              "strength": 4,
-              "dexterity": 5,
-              "defense": 5,
-              "speed": 8
-          }
-      },
-      "w1": "Chakram",
-      "w2": "Sword",
-      "img": "https://cms.brawlhalla.com/c/uploads/2025/01/Mobile-icon.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2025/01/Priya_Official_Splash.png"
-  },
-  {
-      "name": "Petra",
-      "stats": {
-          "base": {
-              "strength": 8,
-              "dexterity": 4,
-              "defense": 4,
-              "speed": 6
-          },
-          "strength": {
-              "strength": 9,
-              "dexterity": 4,
-              "defense": 3,
-              "speed": 6
-          },
-          "dexterity": {
-              "strength": 7,
-              "dexterity": 5,
-              "defense": 4,
-              "speed": 6
-          },
-          "defense": {
-              "strength": 8,
-              "dexterity": 4,
-              "defense": 5,
-              "speed": 5
-          },
-          "speed": {
-              "strength": 8,
-              "dexterity": 3,
-              "defense": 4,
-              "speed": 7
-          }
-      },
-      "w1": "Gauntlets",
-      "w2": "Orb",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_RagefighterM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/06/PetraSplash.png"
-  },
-  {
-      "name": "Orion",
-      "stats": {
-          "base": {
-              "strength": 4,
-              "dexterity": 6,
-              "defense": 6,
-              "speed": 6
-          },
-          "strength": {
-              "strength": 5,
-              "dexterity": 6,
-              "defense": 5,
-              "speed": 6
-          },
-          "dexterity": {
-              "strength": 4,
-              "dexterity": 7,
-              "defense": 6,
-              "speed": 5
-          },
-          "defense": {
-              "strength": 4,
-              "dexterity": 5,
-              "defense": 7,
-              "speed": 6
-          },
-          "speed": {
-              "strength": 3,
-              "dexterity": 6,
-              "defense": 6,
-              "speed": 7
-          }
-      },
-      "w1": "Rocket Lance",
-      "w2": "Spear",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/orion.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/OrionSplash-1.png"
-  },
-  {
-      "name": "Onyx",
-      "stats": {
-          "base": {
-              "strength": 5,
-              "dexterity": 4,
-              "defense": 8,
-              "speed": 5
-          },
-          "strength": {
-              "strength": 6,
-              "dexterity": 4,
-              "defense": 8,
-              "speed": 4
-          },
-          "dexterity": {
-              "strength": 5,
-              "dexterity": 5,
-              "defense": 7,
-              "speed": 5
-          },
-          "defense": {
-              "strength": 4,
-              "dexterity": 4,
-              "defense": 9,
-              "speed": 5
-          },
-          "speed": {
-              "strength": 5,
-              "dexterity": 3,
-              "defense": 8,
-              "speed": 6
-          }
-      },
-      "w1": "Gauntlets",
-      "w2": "Cannon",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_GargoyleM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/GargoyleSplash_Edit.png"
-  },
-  {
-      "name": "Nix",
-      "stats": {
-          "base": {
-              "strength": 4,
-              "dexterity": 5,
-              "defense": 7,
-              "speed": 6
-          },
-          "strength": {
-              "strength": 5,
-              "dexterity": 5,
-              "defense": 6,
-              "speed": 6
-          },
-          "dexterity": {
-              "strength": 3,
-              "dexterity": 6,
-              "defense": 7,
-              "speed": 6
-          },
-          "defense": {
-              "strength": 4,
-              "dexterity": 5,
-              "defense": 8,
-              "speed": 5
-          },
-          "speed": {
-              "strength": 4,
-              "dexterity": 4,
-              "defense": 7,
-              "speed": 7
-          }
-      },
-      "w1": "Scythe",
-      "w2": "Blasters",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ReaperM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/ReaperPromoChar.png"
-  },
-  {
-      "name": "Queen Nai",
-      "stats": {
-          "base": {
-              "strength": 7,
-              "dexterity": 4,
-              "defense": 8,
-              "speed": 3
-          },
-          "strength": {
-              "strength": 8,
-              "dexterity": 3,
-              "defense": 8,
-              "speed": 3
-          },
-          "dexterity": {
-              "strength": 7,
-              "dexterity": 5,
-              "defense": 8,
-              "speed": 2
-          },
-          "defense": {
-              "strength": 6,
-              "dexterity": 4,
-              "defense": 9,
-              "speed": 3
-          },
-          "speed": {
-              "strength": 7,
-              "dexterity": 4,
-              "defense": 7,
-              "speed": 4
-          }
-      },
-      "w1": "Spear",
-      "w2": "Katars",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/nai.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/NaiSplash.png"
-  },
-  {
-      "name": "Munin",
-      "stats": {
-          "base": {
-              "strength": 5,
-              "dexterity": 6,
-              "defense": 4,
-              "speed": 7
-          },
-          "strength": {
-              "strength": 6,
-              "dexterity": 6,
-              "defense": 3,
-              "speed": 7
-          },
-          "dexterity": {
-              "strength": 4,
-              "dexterity": 7,
-              "defense": 4,
-              "speed": 7
-          },
-          "defense": {
-              "strength": 5,
-              "dexterity": 6,
-              "defense": 5,
-              "speed": 6
-          },
-          "speed": {
-              "strength": 5,
-              "dexterity": 5,
-              "defense": 4,
-              "speed": 8
-          }
-      },
-      "w1": "Bow",
-      "w2": "Scythe",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/12/a_Roster_Pose_BirdBardM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/03/MuninSplash.png"
-  },
-  {
-      "name": "Mordex",
-      "stats": {
-          "base": {
-              "strength": 6,
-              "dexterity": 4,
-              "defense": 5,
-              "speed": 7
-          },
-          "strength": {
-              "strength": 7,
-              "dexterity": 3,
-              "defense": 5,
-              "speed": 7
-          },
-          "dexterity": {
-              "strength": 6,
-              "dexterity": 5,
-              "defense": 5,
-              "speed": 6
-          },
-          "defense": {
-              "strength": 5,
-              "dexterity": 4,
-              "defense": 6,
-              "speed": 7
-          },
-          "speed": {
-              "strength": 6,
-              "dexterity": 4,
-              "defense": 4,
-              "speed": 8
-          }
-      },
-      "w1": "Scythe",
-      "w2": "Gauntlets",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_WerewolfM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/MordexSplash.png"
-  },
-  {
-      "name": "Mirage",
-      "stats": {
-          "base": {
-              "strength": 7,
-              "dexterity": 6,
-              "defense": 4,
-              "speed": 5
-          },
-          "strength": {
-              "strength": 8,
-              "dexterity": 5,
-              "defense": 4,
-              "speed": 5
-          },
-          "dexterity": {
-              "strength": 7,
-              "dexterity": 7,
-              "defense": 4,
-              "speed": 4
-          },
-          "defense": {
-              "strength": 6,
-              "dexterity": 6,
-              "defense": 5,
-              "speed": 5
-          },
-          "speed": {
-              "strength": 7,
-              "dexterity": 6,
-              "defense": 3,
-              "speed": 6
-          }
-      },
-      "w1": "Scythe",
-      "w2": "Spear",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_AssassinM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/MirageSplash.png"
-  },
-  {
-      "name": "Mako",
-      "stats": {
-          "base": {
-              "strength": 6,
-              "dexterity": 4,
-              "defense": 4,
-              "speed": 8
-          },
-          "strength": {
-              "strength": 7,
-              "dexterity": 4,
-              "defense": 3,
-              "speed": 8
-          },
-          "dexterity": {
-              "strength": 5,
-              "dexterity": 5,
-              "defense": 4,
-              "speed": 8
-          },
-          "defense": {
-              "strength": 6,
-              "dexterity": 4,
-              "defense": 5,
-              "speed": 7
-          },
-          "speed": {
-              "strength": 6,
-              "dexterity": 3,
-              "defense": 4,
-              "speed": 9
-          }
-      },
-      "w1": "Katars",
-      "w2": "Greatsword",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ActualSharkM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/MakoSplash-1.png"
-  },
-  {
-      "name": "Magyar",
-      "stats": {
-          "base": {
-              "strength": 5,
-              "dexterity": 4,
-              "defense": 9,
-              "speed": 4
-          },
-          "strength": {
-              "strength": 6,
-              "dexterity": 3,
-              "defense": 9,
-              "speed": 4
-          },
-          "dexterity": {
-              "strength": 5,
-              "dexterity": 5,
-              "defense": 8,
-              "speed": 4
-          },
-          "defense": {
-              "strength": 5,
-              "dexterity": 4,
-              "defense": 10,
-              "speed": 3
-          },
-          "speed": {
-              "strength": 4,
-              "dexterity": 4,
-              "defense": 9,
-              "speed": 5
-          }
-      },
-      "w1": "Grapple Hammer",
-      "w2": "Greatsword",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_GhostArmorM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/Magyar-Splash0001.png"
-  },
-  {
-      "name": "Lucien",
-      "stats": {
-          "base": {
-              "strength": 3,
-              "dexterity": 5,
-              "defense": 6,
-              "speed": 8
-          },
-          "strength": {
-              "strength": 4,
-              "dexterity": 5,
-              "defense": 6,
-              "speed": 7
-          },
-          "dexterity": {
-              "strength": 2,
-              "dexterity": 6,
-              "defense": 6,
-              "speed": 8
-          },
-          "defense": {
-              "strength": 3,
-              "dexterity": 4,
-              "defense": 7,
-              "speed": 8
-          },
-          "speed": {
-              "strength": 3,
-              "dexterity": 5,
-              "defense": 5,
-              "speed": 9
-          }
-      },
-      "w1": "Katars",
-      "w2": "Blasters",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/lucien.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/LucienSplash.png"
-  },
-  {
-      "name": "Loki",
-      "stats": {
-          "base": {
-              "strength": 4,
-              "dexterity": 8,
-              "defense": 5,
-              "speed": 5
-          },
-          "strength": {
-              "strength": 5,
-              "dexterity": 7,
-              "defense": 5,
-              "speed": 5
-          },
-          "dexterity": {
-              "strength": 4,
-              "dexterity": 9,
-              "defense": 4,
-              "speed": 5
-          },
-          "defense": {
-              "strength": 4,
-              "dexterity": 8,
-              "defense": 6,
-              "speed": 4
-          },
-          "speed": {
-              "strength": 3,
-              "dexterity": 8,
-              "defense": 5,
-              "speed": 6
-          }
-      },
-      "w1": "Katars",
-      "w2": "Scythe",
-      "img": "https://cms.brawlhalla.com/c/uploads/2023/09/Loki_icon-1.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2023/09/LokiSplash-1.png"
-  },
-  {
-      "name": "Lin Fei",
-      "stats": {
-          "base": {
-              "strength": 3,
-              "dexterity": 8,
-              "defense": 4,
-              "speed": 7
-          },
-          "strength": {
-              "strength": 4,
-              "dexterity": 7,
-              "defense": 4,
-              "speed": 7
-          },
-          "dexterity": {
-              "strength": 3,
-              "dexterity": 9,
-              "defense": 4,
-              "speed": 6
-          },
-          "defense": {
-              "strength": 2,
-              "dexterity": 8,
-              "defense": 5,
-              "speed": 7
-          },
-          "speed": {
-              "strength": 3,
-              "dexterity": 8,
-              "defense": 3,
-              "speed": 8
-          }
-      },
-      "w1": "Katars",
-      "w2": "Cannon",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_WuxiaM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/LinFeiSplash.png"
-  },
-  {
-      "name": "Kor",
-      "stats": {
-          "base": {
-              "strength": 6,
-              "dexterity": 5,
-              "defense": 7,
-              "speed": 4
-          },
-          "strength": {
-              "strength": 7,
-              "dexterity": 4,
-              "defense": 7,
-              "speed": 4
-          },
-          "dexterity": {
-              "strength": 6,
-              "dexterity": 6,
-              "defense": 7,
-              "speed": 3
-          },
-          "defense": {
-              "strength": 5,
-              "dexterity": 5,
-              "defense": 8,
-              "speed": 4
-          },
-          "speed": {
-              "strength": 6,
-              "dexterity": 5,
-              "defense": 6,
-              "speed": 5
-          }
-      },
-      "w1": "Gauntlets",
-      "w2": "Grapple Hammer",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_GolemM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/03/KorSplash.png"
-  },
-  {
-      "name": "Koji",
-      "stats": {
-          "base": {
-              "strength": 5,
-              "dexterity": 8,
-              "defense": 4,
-              "speed": 5
-          },
-          "strength": {
-              "strength": 6,
-              "dexterity": 8,
-              "defense": 3,
-              "speed": 5
-          },
-          "dexterity": {
-              "strength": 5,
-              "dexterity": 9,
-              "defense": 4,
-              "speed": 4
-          },
-          "defense": {
-              "strength": 5,
-              "dexterity": 7,
-              "defense": 5,
-              "speed": 5
-          },
-          "speed": {
-              "strength": 4,
-              "dexterity": 8,
-              "defense": 4,
-              "speed": 6
-          }
-      },
-      "w1": "Bow",
-      "w2": "Sword",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_SamuraiM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/03/KojiSplash.png"
-  },
-  {
-      "name": "King Zuva",
-      "stats": {
-          "base": {
-              "strength": 8,
-              "dexterity": 4,
-              "defense": 6,
-              "speed": 4
-          },
-          "strength": {
-              "strength": 9,
-              "dexterity": 4,
-              "defense": 5,
-              "speed": 4
-          },
-          "dexterity": {
-              "strength": 7,
-              "dexterity": 5,
-              "defense": 6,
-              "speed": 4
-          },
-          "defense": {
-              "strength": 8,
-              "dexterity": 4,
-              "defense": 7,
-              "speed": 3
-          },
-          "speed": {
-              "strength": 8,
-              "dexterity": 3,
-              "defense": 6,
-              "speed": 5
-          }
-      },
-      "w1": "Grapple Hammer",
-      "w2": "Battle Boots",
-      "img": "https://cms.brawlhalla.com/c/uploads/2024/10/a_Roster_Pose_ZuvaM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2024/10/ZuvaSplash-1.png"
-  },
-  {
-      "name": "Kaya",
-      "stats": {
-          "base": {
-              "strength": 4,
-              "dexterity": 4,
-              "defense": 7,
-              "speed": 7
-          },
-          "strength": {
-              "strength": 5,
-              "dexterity": 3,
-              "defense": 7,
-              "speed": 7
-          },
-          "dexterity": {
-              "strength": 4,
-              "dexterity": 5,
-              "defense": 6,
-              "speed": 7
-          },
-          "defense": {
-              "strength": 4,
-              "dexterity": 4,
-              "defense": 8,
-              "speed": 6
-          },
-          "speed": {
-              "strength": 3,
-              "dexterity": 4,
-              "defense": 7,
-              "speed": 8
-          }
-      },
-      "w1": "Spear",
-      "w2": "Bow",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_InuitM-1.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/KayaSplash.png"
-  },
-  {
-      "name": "Jiro",
-      "stats": {
-          "base": {
-              "strength": 5,
-              "dexterity": 7,
-              "defense": 3,
-              "speed": 7
-          },
-          "strength": {
-              "strength": 6,
-              "dexterity": 6,
-              "defense": 3,
-              "speed": 7
-          },
-          "dexterity": {
-              "strength": 5,
-              "dexterity": 8,
-              "defense": 3,
-              "speed": 6
-          },
-          "defense": {
-              "strength": 4,
-              "dexterity": 7,
-              "defense": 4,
-              "speed": 7
-          },
-          "speed": {
-              "strength": 5,
-              "dexterity": 7,
-              "defense": 2,
-              "speed": 8
-          }
-      },
-      "w1": "Sword",
-      "w2": "Scythe",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ShinobiM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/JiroSplash.png"
-  },
-  {
-      "name": "Jhala",
-      "stats": {
-          "base": {
-              "strength": 7,
-              "dexterity": 7,
-              "defense": 3,
-              "speed": 5
-          },
-          "strength": {
-              "strength": 8,
-              "dexterity": 7,
-              "defense": 3,
-              "speed": 4
-          },
-          "dexterity": {
-              "strength": 6,
-              "dexterity": 8,
-              "defense": 3,
-              "speed": 5
-          },
-          "defense": {
-              "strength": 7,
-              "dexterity": 6,
-              "defense": 4,
-              "speed": 5
-          },
-          "speed": {
-              "strength": 7,
-              "dexterity": 7,
-              "defense": 2,
-              "speed": 6
-          }
-      },
-      "w1": "Axe",
-      "w2": "Sword",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_BarbarianM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/03/JhalaSplash.png"
-  },
-  {
-      "name": "Jaeyun",
-      "stats": {
-          "base": {
-              "strength": 6,
-              "dexterity": 5,
-              "defense": 5,
-              "speed": 6
-          },
-          "strength": {
-              "strength": 7,
-              "dexterity": 4,
-              "defense": 5,
-              "speed": 6
-          },
-          "dexterity": {
-              "strength": 6,
-              "dexterity": 6,
-              "defense": 4,
-              "speed": 6
-          },
-          "defense": {
-              "strength": 6,
-              "dexterity": 5,
-              "defense": 6,
-              "speed": 5
-          },
-          "speed": {
-              "strength": 5,
-              "dexterity": 5,
-              "defense": 5,
-              "speed": 7
-          }
-      },
-      "w1": "Sword",
-      "w2": "Greatsword",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_SellswordM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/Jaeyun_New.png"
-  },
-  {
-      "name": "Isaiah",
-      "stats": {
-          "base": {
-              "strength": 5,
-              "dexterity": 6,
-              "defense": 7,
-              "speed": 4
-          },
-          "strength": {
-              "strength": 6,
-              "dexterity": 5,
-              "defense": 7,
-              "speed": 4
-          },
-          "dexterity": {
-              "strength": 5,
-              "dexterity": 7,
-              "defense": 6,
-              "speed": 4
-          },
-          "defense": {
-              "strength": 5,
-              "dexterity": 6,
-              "defense": 8,
-              "speed": 3
-          },
-          "speed": {
-              "strength": 4,
-              "dexterity": 6,
-              "defense": 7,
-              "speed": 5
-          }
-      },
-      "w1": "Blasters",
-      "w2": "Cannon",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_SoldierM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/IsaiahSplash.png"
-  },
-  {
-      "name": "Imugi",
-      "stats": {
-          "base": {
-              "strength": 8,
-              "dexterity": 3,
-              "defense": 8,
-              "speed": 3
-          },
-          "strength": {
-              "strength": 9,
-              "dexterity": 2,
-              "defense": 8,
-              "speed": 3
-          },
-          "dexterity": {
-              "strength": 7,
-              "dexterity": 4,
-              "defense": 8,
-              "speed": 3
-          },
-          "defense": {
-              "strength": 8,
-              "dexterity": 3,
-              "defense": 9,
-              "speed": 2
-          },
-          "speed": {
-              "strength": 8,
-              "dexterity": 3,
-              "defense": 7,
-              "speed": 4
-          }
-      },
-      "w1": "Axe",
-      "w2": "Greatsword",
-      "img": "https://cms.brawlhalla.com/c/uploads/2024/07/imgui-icon.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2024/07/Imugi-Splash.png"
-  },
-  {
-      "name": "Hattori",
-      "stats": {
-          "base": {
-              "strength": 4,
-              "dexterity": 6,
-              "defense": 4,
-              "speed": 8
-          },
-          "strength": {
-              "strength": 5,
-              "dexterity": 6,
-              "defense": 3,
-              "speed": 8
-          },
-          "dexterity": {
-              "strength": 3,
-              "dexterity": 7,
-              "defense": 4,
-              "speed": 8
-          },
-          "defense": {
-              "strength": 4,
-              "dexterity": 6,
-              "defense": 5,
-              "speed": 7
-          },
-          "speed": {
-              "strength": 4,
-              "dexterity": 5,
-              "defense": 4,
-              "speed": 9
-          }
-      },
-      "w1": "Sword",
-      "w2": "Spear",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/hattori.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/HattoriSplash.png"
-  },
-  {
-      "name": "Gnash",
-      "stats": {
-          "base": {
-              "strength": 7,
-              "dexterity": 3,
-              "defense": 5,
-              "speed": 7
-          },
-          "strength": {
-              "strength": 8,
-              "dexterity": 3,
-              "defense": 5,
-              "speed": 6
-          },
-          "dexterity": {
-              "strength": 6,
-              "dexterity": 4,
-              "defense": 5,
-              "speed": 7
-          },
-          "defense": {
-              "strength": 7,
-              "dexterity": 2,
-              "defense": 6,
-              "speed": 7
-          },
-          "speed": {
-              "strength": 7,
-              "dexterity": 3,
-              "defense": 4,
-              "speed": 8
-          }
-      },
-      "w1": "Grapple Hammer",
-      "w2": "Spear",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/gnash.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/GnashSplash.png"
-  },
-  {
-      "name": "Fait",
-      "stats": {
-          "base": {
-              "strength": 7,
-              "dexterity": 4,
-              "defense": 4,
-              "speed": 7
-          },
-          "strength": {
-              "strength": 8,
-              "dexterity": 4,
-              "defense": 4,
-              "speed": 6
-          },
-          "dexterity": {
-              "strength": 7,
-              "dexterity": 5,
-              "defense": 3,
-              "speed": 7
-          },
-          "defense": {
-              "strength": 6,
-              "dexterity": 4,
-              "defense": 5,
-              "speed": 7
-          },
-          "speed": {
-              "strength": 7,
-              "dexterity": 3,
-              "defense": 4,
-              "speed": 8
-          }
-      },
-      "w1": "Scythe",
-      "w2": "Orb",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_SpellwitchM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/FaitSplash.png"
-  },
-  {
-      "name": "Ezio",
-      "stats": {
-          "base": {
-              "strength": 5,
-              "dexterity": 7,
-              "defense": 4,
-              "speed": 6
-          },
-          "strength": {
-              "strength": 6,
-              "dexterity": 7,
-              "defense": 3,
-              "speed": 6
-          },
-          "dexterity": {
-              "strength": 5,
-              "dexterity": 8,
-              "defense": 4,
-              "speed": 5
-          },
-          "defense": {
-              "strength": 5,
-              "dexterity": 6,
-              "defense": 5,
-              "speed": 6
-          },
-          "speed": {
-              "strength": 4,
-              "dexterity": 7,
-              "defense": 4,
-              "speed": 7
-          }
-      },
-      "w1": "Sword",
-      "w2": "Orb",
-      "img": "https://cms.brawlhalla.com/c/uploads/2022/07/a_Roster_Pose_EzioM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/07/splasdhfa29482304afa234.png"
-  },
-  {
-      "name": "Ember",
-      "stats": {
-          "base": {
-              "strength": 6,
-              "dexterity": 6,
-              "defense": 3,
-              "speed": 7
-          },
-          "strength": {
-              "strength": 7,
-              "dexterity": 6,
-              "defense": 2,
-              "speed": 7
-          },
-          "dexterity": {
-              "strength": 5,
-              "dexterity": 7,
-              "defense": 3,
-              "speed": 7
-          },
-          "defense": {
-              "strength": 6,
-              "dexterity": 6,
-              "defense": 4,
-              "speed": 6
-          },
-          "speed": {
-              "strength": 6,
-              "dexterity": 5,
-              "defense": 3,
-              "speed": 8
-          }
-      },
-      "w1": "Bow",
-      "w2": "Katars",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ElfM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/EmberSplash.png"
-  },
-  {
-      "name": "Dusk",
-      "stats": {
-          "base": {
-              "strength": 6,
-              "dexterity": 7,
-              "defense": 4,
-              "speed": 5
-          },
-          "strength": {
-              "strength": 7,
-              "dexterity": 6,
-              "defense": 4,
-              "speed": 5
-          },
-          "dexterity": {
-              "strength": 6,
-              "dexterity": 8,
-              "defense": 4,
-              "speed": 4
-          },
-          "defense": {
-              "strength": 5,
-              "dexterity": 7,
-              "defense": 5,
-              "speed": 5
-          },
-          "speed": {
-              "strength": 6,
-              "dexterity": 7,
-              "defense": 3,
-              "speed": 6
-          }
-      },
-      "w1": "Spear",
-      "w2": "Orb",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ElfwarM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/DuskSplash.png"
-  },
-  {
-      "name": "Diana",
-      "stats": {
-          "base": {
-              "strength": 5,
-              "dexterity": 6,
-              "defense": 5,
-              "speed": 6
-          },
-          "strength": {
-              "strength": 6,
-              "dexterity": 6,
-              "defense": 5,
-              "speed": 5
-          },
-          "dexterity": {
-              "strength": 5,
-              "dexterity": 7,
-              "defense": 4,
-              "speed": 6
-          },
-          "defense": {
-              "strength": 4,
-              "dexterity": 6,
-              "defense": 6,
-              "speed": 6
-          },
-          "speed": {
-              "strength": 5,
-              "dexterity": 5,
-              "defense": 5,
-              "speed": 7
-          }
-      },
-      "w1": "Bow",
-      "w2": "Blasters",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_MonsterHunterM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/03/DianaSplash.png"
-  },
-  {
-      "name": "Cross",
-      "stats": {
-          "base": {
-              "strength": 7,
-              "dexterity": 4,
-              "defense": 6,
-              "speed": 5
-          },
-          "strength": {
-              "strength": 8,
-              "dexterity": 4,
-              "defense": 5,
-              "speed": 5
-          },
-          "dexterity": {
-              "strength": 6,
-              "dexterity": 5,
-              "defense": 6,
-              "speed": 5
-          },
-          "defense": {
-              "strength": 7,
-              "dexterity": 4,
-              "defense": 7,
-              "speed": 4
-          },
-          "speed": {
-              "strength": 7,
-              "dexterity": 3,
-              "defense": 6,
-              "speed": 6
-          }
-      },
-      "w1": "Blasters",
-      "w2": "Gauntlets",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_CrossM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/CrossSplashNoShadow.png"
-  },
-  {
-      "name": "Cassidy",
-      "stats": {
-          "base": {
-              "strength": 6,
-              "dexterity": 8,
-              "defense": 4,
-              "speed": 4
-          },
-          "strength": {
-              "strength": 7,
-              "dexterity": 8,
-              "defense": 4,
-              "speed": 3
-          },
-          "dexterity": {
-              "strength": 5,
-              "dexterity": 9,
-              "defense": 4,
-              "speed": 4
-          },
-          "defense": {
-              "strength": 6,
-              "dexterity": 7,
-              "defense": 5,
-              "speed": 4
-          },
-          "speed": {
-              "strength": 6,
-              "dexterity": 8,
-              "defense": 3,
-              "speed": 5
-          }
-      },
-      "w1": "Blasters",
-      "w2": "Grapple Hammer",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/cassidy.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/CassidySplash-1.png"
-  },
-  {
-      "name": "Caspian",
-      "stats": {
-          "base": {
-              "strength": 7,
-              "dexterity": 5,
-              "defense": 4,
-              "speed": 6
-          },
-          "strength": {
-              "strength": 8,
-              "dexterity": 5,
-              "defense": 4,
-              "speed": 5
-          },
-          "dexterity": {
-              "strength": 7,
-              "dexterity": 6,
-              "defense": 3,
-              "speed": 6
-          },
-          "defense": {
-              "strength": 6,
-              "dexterity": 5,
-              "defense": 5,
-              "speed": 6
-          },
-          "speed": {
-              "strength": 7,
-              "dexterity": 4,
-              "defense": 4,
-              "speed": 7
-          }
-      },
-      "w1": "Gauntlets",
-      "w2": "Katars",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ThiefM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/CaspianSplash.png"
-  },
-  {
-      "name": "Brynn",
-      "stats": {
-          "base": {
-              "strength": 5,
-              "dexterity": 5,
-              "defense": 5,
-              "speed": 7
-          },
-          "strength": {
-              "strength": 6,
-              "dexterity": 4,
-              "defense": 5,
-              "speed": 7
-          },
-          "dexterity": {
-              "strength": 5,
-              "dexterity": 6,
-              "defense": 5,
-              "speed": 6
-          },
-          "defense": {
-              "strength": 4,
-              "dexterity": 5,
-              "defense": 6,
-              "speed": 7
-          },
-          "speed": {
-              "strength": 5,
-              "dexterity": 5,
-              "defense": 4,
-              "speed": 8
-          }
-      },
-      "w1": "Axe",
-      "w2": "Spear",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ValkyrieM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/BrynnSplash.png"
-  },
-  {
-      "name": "B\u00f6dvar",
-      "stats": {
-          "base": {
-              "strength": 6,
-              "dexterity": 6,
-              "defense": 5,
-              "speed": 5
-          },
-          "strength": {
-              "strength": 7,
-              "dexterity": 5,
-              "defense": 5,
-              "speed": 5
-          },
-          "dexterity": {
-              "strength": 6,
-              "dexterity": 7,
-              "defense": 4,
-              "speed": 5
-          },
-          "defense": {
-              "strength": 6,
-              "dexterity": 6,
-              "defense": 6,
-              "speed": 4
-          },
-          "speed": {
-              "strength": 5,
-              "dexterity": 6,
-              "defense": 5,
-              "speed": 6
-          }
-      },
-      "w1": "Grapple Hammer",
-      "w2": "Sword",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/bodvar.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/BodvarSplash-1.png"
-  },
-  {
-      "name": "Barraza",
-      "stats": {
-          "base": {
-              "strength": 6,
-              "dexterity": 4,
-              "defense": 8,
-              "speed": 4
-          },
-          "strength": {
-              "strength": 7,
-              "dexterity": 3,
-              "defense": 8,
-              "speed": 4
-          },
-          "dexterity": {
-              "strength": 6,
-              "dexterity": 5,
-              "defense": 8,
-              "speed": 3
-          },
-          "defense": {
-              "strength": 5,
-              "dexterity": 4,
-              "defense": 9,
-              "speed": 4
-          },
-          "speed": {
-              "strength": 6,
-              "dexterity": 4,
-              "defense": 7,
-              "speed": 5
-          }
-      },
-      "w1": "Axe",
-      "w2": "Blasters",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ApocM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/BarrazaSplash.png"
-  },
-  {
-      "name": "Azoth",
-      "stats": {
-          "base": {
-              "strength": 7,
-              "dexterity": 5,
-              "defense": 6,
-              "speed": 4
-          },
-          "strength": {
-              "strength": 8,
-              "dexterity": 5,
-              "defense": 5,
-              "speed": 4
-          },
-          "dexterity": {
-              "strength": 7,
-              "dexterity": 6,
-              "defense": 6,
-              "speed": 3
-          },
-          "defense": {
-              "strength": 7,
-              "dexterity": 4,
-              "defense": 7,
-              "speed": 4
-          },
-          "speed": {
-              "strength": 6,
-              "dexterity": 5,
-              "defense": 6,
-              "speed": 5
-          }
-      },
-      "w1": "Bow",
-      "w2": "Axe",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_AzothM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/03/AzothSplash.png"
-  },
-  {
-      "name": "Asuri",
-      "stats": {
-          "base": {
-              "strength": 4,
-              "dexterity": 7,
-              "defense": 5,
-              "speed": 6
-          },
-          "strength": {
-              "strength": 5,
-              "dexterity": 6,
-              "defense": 5,
-              "speed": 6
-          },
-          "dexterity": {
-              "strength": 4,
-              "dexterity": 8,
-              "defense": 5,
-              "speed": 5
-          },
-          "defense": {
-              "strength": 3,
-              "dexterity": 7,
-              "defense": 6,
-              "speed": 6
-          },
-          "speed": {
-              "strength": 4,
-              "dexterity": 7,
-              "defense": 4,
-              "speed": 7
-          }
-      },
-      "w1": "Katars",
-      "w2": "Sword",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_CatM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/AsuriSplash.png"
-  },
-  {
-      "name": "Artemis",
-      "stats": {
-          "base": {
-              "strength": 5,
-              "dexterity": 5,
-              "defense": 4,
-              "speed": 8
-          },
-          "strength": {
-              "strength": 6,
-              "dexterity": 5,
-              "defense": 3,
-              "speed": 8
-          },
-          "dexterity": {
-              "strength": 4,
-              "dexterity": 6,
-              "defense": 4,
-              "speed": 8
-          },
-          "defense": {
-              "strength": 5,
-              "dexterity": 5,
-              "defense": 5,
-              "speed": 7
-          },
-          "speed": {
-              "strength": 5,
-              "dexterity": 4,
-              "defense": 4,
-              "speed": 9
-          }
-      },
-      "w1": "Rocket Lance",
-      "w2": "Scythe",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_SpaceHunterM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/ArtemisSplash.png"
-  },
-  {
-      "name": "Arcadia",
-      "stats": {
-          "base": {
-              "strength": 7,
-              "dexterity": 7,
-              "defense": 4,
-              "speed": 4
-          },
-          "strength": {
-              "strength": 8,
-              "dexterity": 7,
-              "defense": 3,
-              "speed": 4
-          },
-          "dexterity": {
-              "strength": 7,
-              "dexterity": 8,
-              "defense": 4,
-              "speed": 3
-          },
-          "defense": {
-              "strength": 7,
-              "dexterity": 6,
-              "defense": 5,
-              "speed": 4
-          },
-          "speed": {
-              "strength": 6,
-              "dexterity": 7,
-              "defense": 4,
-              "speed": 5
-          }
-      },
-      "w1": "Spear",
-      "w2": "Greatsword",
-      "img": "https://cms.brawlhalla.com/c/uploads/2022/03/a_Roster_Pose_FairyQueenM.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/03/Arcadia_FX.png"
-  },
-  {
-      "name": "Ada",
-      "stats": {
-          "base": {
-              "strength": 6,
-              "dexterity": 7,
-              "defense": 3,
-              "speed": 6
-          },
-          "strength": {
-              "strength": 7,
-              "dexterity": 7,
-              "defense": 2,
-              "speed": 6
-          },
-          "dexterity": {
-              "strength": 6,
-              "dexterity": 8,
-              "defense": 3,
-              "speed": 5
-          },
-          "defense": {
-              "strength": 6,
-              "dexterity": 6,
-              "defense": 4,
-              "speed": 6
-          },
-          "speed": {
-              "strength": 5,
-              "dexterity": 7,
-              "defense": 3,
-              "speed": 7
-          }
-      },
-      "w1": "Blasters",
-      "w2": "Spear",
-      "img": "https://cms.brawlhalla.com/c/uploads/2021/07/ada.png",
-      "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/AdaSplash.png"
+    "name": "Zariel",
+    "stats": {
+      "base"     : {"strength": 7, "dexterity": 4, "defense": 7, "speed": 4},
+      "strength" : {"strength": 8, "dexterity": 4, "defense": 6, "speed": 4},
+      "dexterity": {"strength": 7, "dexterity": 5, "defense": 7, "speed": 3},
+      "defense"  : {"strength": 7, "dexterity": 3, "defense": 8, "speed": 4},
+      "speed"    : {"strength": 6, "dexterity": 4, "defense": 7, "speed": 5}
+    },
+    "w1": "Gauntlets",
+    "w2": "Bow",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_CelestialM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/ZarielSplash.png"
+  },
+  {
+    "name": "Yumiko",
+    "stats": {
+      "base"     : {"strength": 4, "dexterity": 7, "defense": 4, "speed": 7},
+      "strength" : {"strength": 5, "dexterity": 6, "defense": 4, "speed": 7},
+      "dexterity": {"strength": 4, "dexterity": 8, "defense": 4, "speed": 6},
+      "defense"  : {"strength": 3, "dexterity": 7, "defense": 5, "speed": 7},
+      "speed"    : {"strength": 4, "dexterity": 7, "defense": 3, "speed": 8}
+    },
+    "w1": "Bow",
+    "w2": "Grapple Hammer",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_KitsuneM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/Yumiko1.png"
+  },
+  {
+    "name": "Xull",
+    "stats": {
+      "base"     : {"strength":  9, "dexterity": 4, "defense": 5, "speed": 4},
+      "strength" : {"strength": 10, "dexterity": 4, "defense": 4, "speed": 4},
+      "dexterity": {"strength":  9, "dexterity": 5, "defense": 5, "speed": 3},
+      "defense"  : {"strength":  9, "dexterity": 3, "defense": 6, "speed": 4},
+      "speed"    : {"strength":  8, "dexterity": 4, "defense": 5, "speed": 5}
+    },
+    "w1": "Cannon",
+    "w2": "Axe",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_BruteM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/UpdatedXull.png"
+  },
+  {
+    "name": "Wu Shang",
+    "stats": {
+      "base"     : {"strength": 5, "dexterity": 7, "defense": 5, "speed": 5},
+      "strength" : {"strength": 6, "dexterity": 6, "defense": 5, "speed": 5},
+      "dexterity": {"strength": 5, "dexterity": 8, "defense": 4, "speed": 5},
+      "defense"  : {"strength": 5, "dexterity": 7, "defense": 6, "speed": 4},
+      "speed"    : {"strength": 4, "dexterity": 7, "defense": 5, "speed": 6}
+    },
+    "w1": "Gauntlets",
+    "w2": "Spear",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_MonkM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/03/WuShangSplash.png"
+  },
+  {
+    "name": "Lord Vraxx",
+    "stats": {
+      "base"     : {"strength": 4, "dexterity": 8, "defense": 4, "speed": 6},
+      "strength" : {"strength": 5, "dexterity": 7, "defense": 4, "speed": 6},
+      "dexterity": {"strength": 4, "dexterity": 9, "defense": 4, "speed": 5},
+      "defense"  : {"strength": 3, "dexterity": 8, "defense": 5, "speed": 6},
+      "speed"    : {"strength": 4, "dexterity": 8, "defense": 3, "speed": 7}
+    },
+    "w1": "Rocket Lance",
+    "w2": "Blasters",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_VraxxM-1.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/VraxxSplash.png"
+  },
+  {
+    "name": "Volkov",
+    "stats": {
+      "base"     : {"strength": 4, "dexterity": 8, "defense": 6, "speed": 4},
+      "strength" : {"strength": 5, "dexterity": 7, "defense": 6, "speed": 4},
+      "dexterity": {"strength": 4, "dexterity": 9, "defense": 5, "speed": 4},
+      "defense"  : {"strength": 4, "dexterity": 8, "defense": 7, "speed": 3},
+      "speed"    : {"strength": 3, "dexterity": 8, "defense": 6, "speed": 5}
+    },
+    "w1": "Axe",
+    "w2": "Scythe",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_VampLordM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/VolkovSplash.png"
+  },
+  {
+    "name": "Vivi",
+    "stats": {
+      "base"     : {"strength": 6, "dexterity": 5, "defense": 4, "speed": 7},
+      "strength" : {"strength": 7, "dexterity": 4, "defense": 4, "speed": 7},
+      "dexterity": {"strength": 6, "dexterity": 6, "defense": 3, "speed": 7},
+      "defense"  : {"strength": 6, "dexterity": 5, "defense": 5, "speed": 6},
+      "speed"    : {"strength": 5, "dexterity": 5, "defense": 4, "speed": 8}
+    },
+    "w1": "Battle Boots",
+    "w2": "Blasters",
+    "img": "https://cms.brawlhalla.com/c/uploads/2024/04/Vivilegendpage.jpg",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2024/04/vivisplash_final.png"
+  },
+  {
+    "name": "Vector",
+    "stats": {
+      "base"     : {"strength": 5, "dexterity": 4, "defense": 6, "speed": 7},
+      "strength" : {"strength": 6, "dexterity": 3, "defense": 6, "speed": 7},
+      "dexterity": {"strength": 5, "dexterity": 5, "defense": 6, "speed": 6},
+      "defense"  : {"strength": 4, "dexterity": 4, "defense": 7, "speed": 7},
+      "speed"    : {"strength": 5, "dexterity": 4, "defense": 5, "speed": 8}
+    },
+    "w1": "Rocket Lance",
+    "w2": "Bow",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ActualRobotM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/VectorSplash.png"
+  },
+  {
+    "name": "Val",
+    "stats": {
+      "base"     : {"strength": 4, "dexterity": 5, "defense": 6, "speed": 7},
+      "strength" : {"strength": 5, "dexterity": 5, "defense": 6, "speed": 6},
+      "dexterity": {"strength": 3, "dexterity": 6, "defense": 6, "speed": 7},
+      "defense"  : {"strength": 4, "dexterity": 4, "defense": 7, "speed": 7},
+      "speed"    : {"strength": 4, "dexterity": 5, "defense": 5, "speed": 8}
+    },
+    "w1": "Gauntlets",
+    "w2": "Sword",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ValM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/ValSplash.png"
+  },
+  {
+    "name": "Ulgrim",
+    "stats": {
+      "base"     : {"strength": 6, "dexterity": 3, "defense": 7, "speed": 6},
+      "strength" : {"strength": 7, "dexterity": 3, "defense": 7, "speed": 5},
+      "dexterity": {"strength": 6, "dexterity": 4, "defense": 6, "speed": 6},
+      "defense"  : {"strength": 5, "dexterity": 3, "defense": 8, "speed": 6},
+      "speed"    : {"strength": 6, "dexterity": 2, "defense": 7, "speed": 7}
+    },
+    "w1": "Axe",
+    "w2": "Rocket Lance",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_DwarfM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/03/UlgrimSplash.png"
+  },
+  {
+    "name": "Thor",
+    "stats": {
+      "base"     : {"strength": 6, "dexterity": 4, "defense": 7, "speed": 5},
+      "strength" : {"strength": 7, "dexterity": 4, "defense": 7, "speed": 4},
+      "dexterity": {"strength": 6, "dexterity": 5, "defense": 6, "speed": 5},
+      "defense"  : {"strength": 5, "dexterity": 4, "defense": 8, "speed": 5},
+      "speed"    : {"strength": 6, "dexterity": 3, "defense": 7, "speed": 6}
+    },
+    "w1": "Grapple Hammer",
+    "w2": "Orb",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ThorM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/ThorSplash_Isolated.png"
+  },
+  {
+    "name": "Thea",
+    "stats": {
+      "base"     : {"strength": 4, "dexterity": 6, "defense": 3, "speed":  9},
+      "strength" : {"strength": 5, "dexterity": 5, "defense": 3, "speed":  9},
+      "dexterity": {"strength": 4, "dexterity": 7, "defense": 3, "speed":  8},
+      "defense"  : {"strength": 3, "dexterity": 6, "defense": 4, "speed":  9},
+      "speed"    : {"strength": 4, "dexterity": 6, "defense": 2, "speed": 10}
+    },
+    "w1": "Battle Boots",
+    "w2": "Rocket Lance",
+    "img": "https://cms.brawlhalla.com/c/uploads/2023/03/a_Roster_Pose_SpeedsterM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2023/03/theasplashspeedster.png"
+  },
+  {
+    "name": "Thatch",
+    "stats": {
+      "base"     : {"strength": 7, "dexterity": 5, "defense": 3, "speed": 7},
+      "strength" : {"strength": 8, "dexterity": 4, "defense": 3, "speed": 7},
+      "dexterity": {"strength": 7, "dexterity": 6, "defense": 2, "speed": 7},
+      "defense"  : {"strength": 7, "dexterity": 5, "defense": 4, "speed": 6},
+      "speed"    : {"strength": 6, "dexterity": 5, "defense": 3, "speed": 8}
+    },
+    "w1": "Sword",
+    "w2": "Blasters",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/thatch.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/UpdatedThatch.png"
+  },
+  {
+    "name": "Tezca",
+    "stats": {
+      "base"     : {"strength": 7, "dexterity": 5, "defense": 5, "speed": 5},
+      "strength" : {"strength": 8, "dexterity": 4, "defense": 5, "speed": 5},
+      "dexterity": {"strength": 7, "dexterity": 6, "defense": 4, "speed": 5},
+      "defense"  : {"strength": 7, "dexterity": 5, "defense": 6, "speed": 4},
+      "speed"    : {"strength": 6, "dexterity": 5, "defense": 5, "speed": 6}
+    },
+    "w1": "Battle Boots",
+    "w2": "Gauntlets",
+    "img": "https://cms.brawlhalla.com/c/uploads/2022/12/a_Roster_Pose_LuchadorM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2023/01/TezcaSplash_NoRing_Crop.png"
+  },
+  {
+    "name": "Teros",
+    "stats": {
+      "base"     : {"strength": 8, "dexterity": 3, "defense": 6, "speed": 5},
+      "strength" : {"strength": 9, "dexterity": 3, "defense": 5, "speed": 5},
+      "dexterity": {"strength": 7, "dexterity": 4, "defense": 6, "speed": 5},
+      "defense"  : {"strength": 8, "dexterity": 3, "defense": 7, "speed": 4},
+      "speed"    : {"strength": 8, "dexterity": 2, "defense": 6, "speed": 6}
+    },
+    "w1": "Axe",
+    "w2": "Grapple Hammer",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/teros.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/TerosSplash.png"
+  },
+  {
+    "name": "Sir Roland",
+    "stats": {
+      "base"     : {"strength": 5, "dexterity": 5, "defense": 8, "speed": 4},
+      "strength" : {"strength": 6, "dexterity": 5, "defense": 8, "speed": 3},
+      "dexterity": {"strength": 4, "dexterity": 6, "defense": 8, "speed": 4},
+      "defense"  : {"strength": 5, "dexterity": 4, "defense": 9, "speed": 4},
+      "speed"    : {"strength": 5, "dexterity": 5, "defense": 7, "speed": 5}
+    },
+    "w1": "Rocket Lance",
+    "w2": "Sword",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/roland.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/RolandSplash.png"
+  },
+  {
+    "name": "Sidra",
+    "stats": {
+      "base"     : {"strength": 6, "dexterity": 4, "defense": 6, "speed": 6},
+      "strength" : {"strength": 7, "dexterity": 4, "defense": 6, "speed": 5},
+      "dexterity": {"strength": 5, "dexterity": 5, "defense": 6, "speed": 6},
+      "defense"  : {"strength": 6, "dexterity": 3, "defense": 7, "speed": 6},
+      "speed"    : {"strength": 6, "dexterity": 4, "defense": 5, "speed": 7}
+    },
+    "w1": "Cannon",
+    "w2": "Sword",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_CorsairM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/SidraSplash.png"
+  },
+  {
+    "name": "Seven",
+    "stats": {
+      "base"     : {"strength": 7, "dexterity": 3, "defense": 8, "speed": 4},
+      "strength" : {"strength": 8, "dexterity": 3, "defense": 8, "speed": 3},
+      "dexterity": {"strength": 7, "dexterity": 4, "defense": 7, "speed": 4},
+      "defense"  : {"strength": 6, "dexterity": 3, "defense": 9, "speed": 4},
+      "speed"    : {"strength": 7, "dexterity": 2, "defense": 8, "speed": 5}
+    },
+    "w1": "Spear",
+    "w2": "Cannon",
+    "img": "https://cms.brawlhalla.com/c/uploads/2023/12/roboengineer-rostericon.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2023/12/seven-splash.png"
+  },
+  {
+    "name": "Sentinel",
+    "stats": {
+      "base"     : {"strength": 5, "dexterity": 4, "defense": 7, "speed": 6},
+      "strength" : {"strength": 6, "dexterity": 3, "defense": 7, "speed": 6},
+      "dexterity": {"strength": 5, "dexterity": 5, "defense": 6, "speed": 6},
+      "defense"  : {"strength": 5, "dexterity": 4, "defense": 8, "speed": 5},
+      "speed"    : {"strength": 4, "dexterity": 4, "defense": 7, "speed": 7}
+    },
+    "w1": "Grapple Hammer",
+    "w2": "Katars",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/sentinel.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/UpdatedSentinel.png"
+  },
+  {
+    "name": "Scarlet",
+    "stats": {
+      "base"     : {"strength": 8, "dexterity": 5, "defense": 5, "speed": 4},
+      "strength" : {"strength": 9, "dexterity": 5, "defense": 4, "speed": 4},
+      "dexterity": {"strength": 8, "dexterity": 6, "defense": 5, "speed": 3},
+      "defense"  : {"strength": 8, "dexterity": 4, "defense": 6, "speed": 4},
+      "speed"    : {"strength": 7, "dexterity": 5, "defense": 5, "speed": 5}
+    },
+    "w1": "Grapple Hammer",
+    "w2": "Rocket Lance",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/scarlet.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/ScarletSplash.png"
+  },
+  {
+    "name": "Reno",
+    "stats": {
+      "base"     : {"strength": 4, "dexterity": 7, "defense": 6, "speed": 5},
+      "strength" : {"strength": 5, "dexterity": 6, "defense": 6, "speed": 5},
+      "dexterity": {"strength": 4, "dexterity": 8, "defense": 5, "speed": 5},
+      "defense"  : {"strength": 4, "dexterity": 7, "defense": 7, "speed": 4},
+      "speed"    : {"strength": 3, "dexterity": 7, "defense": 6, "speed": 6}
+    },
+    "w1": "Blasters",
+    "w2": "Orb",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_BountyHunterM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/Reno-Splash0001.png"
+  },
+  {
+    "name": "Red Raptor",
+    "stats": {
+      "base"     : {"strength": 6, "dexterity": 6, "defense": 4, "speed": 6},
+      "strength" : {"strength": 7, "dexterity": 5, "defense": 4, "speed": 6},
+      "dexterity": {"strength": 6, "dexterity": 7, "defense": 3, "speed": 6},
+      "defense"  : {"strength": 6, "dexterity": 6, "defense": 5, "speed": 5},
+      "speed"    : {"strength": 5, "dexterity": 6, "defense": 4, "speed": 7}
+    },
+    "w1": "Battle Boots",
+    "w2": "Orb",
+    "img": "https://cms.brawlhalla.com/c/uploads/2023/06/a_Roster_Pose_SentaiM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2023/06/a__AnimationSplashArtSentai.png"
+  },
+  {
+    "name": "Rayman",
+    "stats": {
+      "base"     : {"strength": 5, "dexterity": 5, "defense": 6, "speed": 6},
+      "strength" : {"strength": 6, "dexterity": 5, "defense": 5, "speed": 6},
+      "dexterity": {"strength": 4, "dexterity": 6, "defense": 6, "speed": 6},
+      "defense"  : {"strength": 5, "dexterity": 5, "defense": 7, "speed": 5},
+      "speed"    : {"strength": 5, "dexterity": 4, "defense": 6, "speed": 7}
+    },
+    "w1": "Gauntlets",
+    "w2": "Axe",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_RaymanM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/RaymanSplash_Single.png"
+  },
+  {
+    "name": "Ragnir",
+    "stats": {
+      "base"     : {"strength": 5, "dexterity": 6, "defense": 6, "speed": 5},
+      "strength" : {"strength": 6, "dexterity": 6, "defense": 5, "speed": 5},
+      "dexterity": {"strength": 5, "dexterity": 7, "defense": 6, "speed": 4},
+      "defense"  : {"strength": 5, "dexterity": 5, "defense": 7, "speed": 5},
+      "speed"    : {"strength": 4, "dexterity": 6, "defense": 6, "speed": 6}
+    },
+    "w1": "Katars",
+    "w2": "Axe",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_DragonM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/RagnirSplash.png"
+  },
+  {
+    "name": "Priya",
+    "stats": {
+      "base"     : {"strength": 4, "dexterity": 6, "defense": 5, "speed": 7},
+      "strength" : {"strength": 5, "dexterity": 6, "defense": 5, "speed": 6},
+      "dexterity": {"strength": 4, "dexterity": 7, "defense": 4, "speed": 7},
+      "defense"  : {"strength": 3, "dexterity": 6, "defense": 6, "speed": 7},
+      "speed"    : {"strength": 4, "dexterity": 5, "defense": 5, "speed": 8}
+    },
+    "w1": "Chakram",
+    "w2": "Sword",
+    "img": "https://cms.brawlhalla.com/c/uploads/2025/01/Mobile-icon.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2025/01/Priya_Official_Splash.png"
+  },
+  {
+    "name": "Petra",
+    "stats": {
+      "base"     : {"strength": 8, "dexterity": 4, "defense": 4, "speed": 6},
+      "strength" : {"strength": 9, "dexterity": 4, "defense": 3, "speed": 6},
+      "dexterity": {"strength": 7, "dexterity": 5, "defense": 4, "speed": 6},
+      "defense"  : {"strength": 8, "dexterity": 4, "defense": 5, "speed": 5},
+      "speed"    : {"strength": 8, "dexterity": 3, "defense": 4, "speed": 7}
+    },
+    "w1": "Gauntlets",
+    "w2": "Orb",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_RagefighterM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/06/PetraSplash.png"
+  },
+  {
+    "name": "Orion",
+    "stats": {
+      "base"     : {"strength": 4, "dexterity": 6, "defense": 6, "speed": 6},
+      "strength" : {"strength": 5, "dexterity": 6, "defense": 5, "speed": 6},
+      "dexterity": {"strength": 4, "dexterity": 7, "defense": 6, "speed": 5},
+      "defense"  : {"strength": 4, "dexterity": 5, "defense": 7, "speed": 6},
+      "speed"    : {"strength": 3, "dexterity": 6, "defense": 6, "speed": 7}
+    },
+    "w1": "Rocket Lance",
+    "w2": "Spear",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/orion.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/OrionSplash-1.png"
+  },
+  {
+    "name": "Onyx",
+    "stats": {
+      "base"     : {"strength": 5, "dexterity": 4, "defense": 8, "speed": 5},
+      "strength" : {"strength": 6, "dexterity": 4, "defense": 8, "speed": 4},
+      "dexterity": {"strength": 5, "dexterity": 5, "defense": 7, "speed": 5},
+      "defense"  : {"strength": 4, "dexterity": 4, "defense": 9, "speed": 5},
+      "speed"    : {"strength": 5, "dexterity": 3, "defense": 8, "speed": 6}
+    },
+    "w1": "Gauntlets",
+    "w2": "Cannon",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_GargoyleM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/GargoyleSplash_Edit.png"
+  },
+  {
+    "name": "Nix",
+    "stats": {
+      "base"     : {"strength": 4, "dexterity": 5, "defense": 7, "speed": 6},
+      "strength" : {"strength": 5, "dexterity": 5, "defense": 6, "speed": 6},
+      "dexterity": {"strength": 3, "dexterity": 6, "defense": 7, "speed": 6},
+      "defense"  : {"strength": 4, "dexterity": 5, "defense": 8, "speed": 5},
+      "speed"    : {"strength": 4, "dexterity": 4, "defense": 7, "speed": 7}
+    },
+    "w1": "Scythe",
+    "w2": "Blasters",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ReaperM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/ReaperPromoChar.png"
+  },
+  {
+    "name": "Queen Nai",
+    "stats": {
+      "base"     : {"strength": 7, "dexterity": 4, "defense": 8, "speed": 3},
+      "strength" : {"strength": 8, "dexterity": 3, "defense": 8, "speed": 3},
+      "dexterity": {"strength": 7, "dexterity": 5, "defense": 8, "speed": 2},
+      "defense"  : {"strength": 6, "dexterity": 4, "defense": 9, "speed": 3},
+      "speed"    : {"strength": 7, "dexterity": 4, "defense": 7, "speed": 4}
+    },
+    "w1": "Spear",
+    "w2": "Katars",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/nai.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/NaiSplash.png"
+  },
+  {
+    "name": "Munin",
+    "stats": {
+      "base"     : {"strength": 5, "dexterity": 6, "defense": 4, "speed": 7},
+      "strength" : {"strength": 6, "dexterity": 6, "defense": 3, "speed": 7},
+      "dexterity": {"strength": 4, "dexterity": 7, "defense": 4, "speed": 7},
+      "defense"  : {"strength": 5, "dexterity": 6, "defense": 5, "speed": 6},
+      "speed"    : {"strength": 5, "dexterity": 5, "defense": 4, "speed": 8}
+    },
+    "w1": "Bow",
+    "w2": "Scythe",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/12/a_Roster_Pose_BirdBardM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/03/MuninSplash.png"
+  },
+  {
+    "name": "Mordex",
+    "stats": {
+      "base"     : {"strength": 6, "dexterity": 4, "defense": 5, "speed": 7},
+      "strength" : {"strength": 7, "dexterity": 3, "defense": 5, "speed": 7},
+      "dexterity": {"strength": 6, "dexterity": 5, "defense": 5, "speed": 6},
+      "defense"  : {"strength": 5, "dexterity": 4, "defense": 6, "speed": 7},
+      "speed"    : {"strength": 6, "dexterity": 4, "defense": 4, "speed": 8}
+    },
+    "w1": "Scythe",
+    "w2": "Gauntlets",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_WerewolfM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/MordexSplash.png"
+  },
+  {
+    "name": "Mirage",
+    "stats": {
+      "base"     : {"strength": 7, "dexterity": 6, "defense": 4, "speed": 5},
+      "strength" : {"strength": 8, "dexterity": 5, "defense": 4, "speed": 5},
+      "dexterity": {"strength": 7, "dexterity": 7, "defense": 4, "speed": 4},
+      "defense"  : {"strength": 6, "dexterity": 6, "defense": 5, "speed": 5},
+      "speed"    : {"strength": 7, "dexterity": 6, "defense": 3, "speed": 6}
+    },
+    "w1": "Scythe",
+    "w2": "Spear",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_AssassinM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/MirageSplash.png"
+  },
+  {
+    "name": "Mako",
+    "stats": {
+      "base"     : {"strength": 6, "dexterity": 4, "defense": 4, "speed": 8},
+      "strength" : {"strength": 7, "dexterity": 4, "defense": 3, "speed": 8},
+      "dexterity": {"strength": 5, "dexterity": 5, "defense": 4, "speed": 8},
+      "defense"  : {"strength": 6, "dexterity": 4, "defense": 5, "speed": 7},
+      "speed"    : {"strength": 6, "dexterity": 3, "defense": 4, "speed": 9}
+    },
+    "w1": "Katars",
+    "w2": "Greatsword",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ActualSharkM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/MakoSplash-1.png"
+  },
+  {
+    "name": "Magyar",
+    "stats": {
+      "base"     : {"strength": 5, "dexterity": 4, "defense":  9, "speed": 4},
+      "strength" : {"strength": 6, "dexterity": 3, "defense":  9, "speed": 4},
+      "dexterity": {"strength": 5, "dexterity": 5, "defense":  8, "speed": 4},
+      "defense"  : {"strength": 5, "dexterity": 4, "defense": 10, "speed": 3},
+      "speed"    : {"strength": 4, "dexterity": 4, "defense":  9, "speed": 5}
+    },
+    "w1": "Grapple Hammer",
+    "w2": "Greatsword",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_GhostArmorM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/Magyar-Splash0001.png"
+  },
+  {
+    "name": "Lucien",
+    "stats": {
+      "base"     : {"strength": 3, "dexterity": 5, "defense": 6, "speed": 8},
+      "strength" : {"strength": 4, "dexterity": 5, "defense": 6, "speed": 7},
+      "dexterity": {"strength": 2, "dexterity": 6, "defense": 6, "speed": 8},
+      "defense"  : {"strength": 3, "dexterity": 4, "defense": 7, "speed": 8},
+      "speed"    : {"strength": 3, "dexterity": 5, "defense": 5, "speed": 9}
+    },
+    "w1": "Katars",
+    "w2": "Blasters",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/lucien.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/LucienSplash.png"
+  },
+  {
+    "name": "Loki",
+    "stats": {
+      "base"     : {"strength": 4, "dexterity": 8, "defense": 5, "speed": 5},
+      "strength" : {"strength": 5, "dexterity": 7, "defense": 5, "speed": 5},
+      "dexterity": {"strength": 4, "dexterity": 9, "defense": 4, "speed": 5},
+      "defense"  : {"strength": 4, "dexterity": 8, "defense": 6, "speed": 4},
+      "speed"    : {"strength": 3, "dexterity": 8, "defense": 5, "speed": 6}
+    },
+    "w1": "Katars",
+    "w2": "Scythe",
+    "img": "https://cms.brawlhalla.com/c/uploads/2023/09/Loki_icon-1.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2023/09/LokiSplash-1.png"
+  },
+  {
+    "name": "Lin Fei",
+    "stats": {
+      "base"     : {"strength": 3, "dexterity": 8, "defense": 4, "speed": 7},
+      "strength" : {"strength": 4, "dexterity": 7, "defense": 4, "speed": 7},
+      "dexterity": {"strength": 3, "dexterity": 9, "defense": 4, "speed": 6},
+      "defense"  : {"strength": 2, "dexterity": 8, "defense": 5, "speed": 7},
+      "speed"    : {"strength": 3, "dexterity": 8, "defense": 3, "speed": 8}
+    },
+    "w1": "Katars",
+    "w2": "Cannon",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_WuxiaM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/LinFeiSplash.png"
+  },
+  {
+    "name": "Kor",
+    "stats": {
+      "base"     : {"strength": 6, "dexterity": 5, "defense": 7, "speed": 4},
+      "strength" : {"strength": 7, "dexterity": 4, "defense": 7, "speed": 4},
+      "dexterity": {"strength": 6, "dexterity": 6, "defense": 7, "speed": 3},
+      "defense"  : {"strength": 5, "dexterity": 5, "defense": 8, "speed": 4},
+      "speed"    : {"strength": 6, "dexterity": 5, "defense": 6, "speed": 5}
+    },
+    "w1": "Gauntlets",
+    "w2": "Grapple Hammer",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_GolemM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/03/KorSplash.png"
+  },
+  {
+    "name": "Koji",
+    "stats": {
+      "base"     : {"strength": 5, "dexterity": 8, "defense": 4, "speed": 5},
+      "strength" : {"strength": 6, "dexterity": 8, "defense": 3, "speed": 5},
+      "dexterity": {"strength": 5, "dexterity": 9, "defense": 4, "speed": 4},
+      "defense"  : {"strength": 5, "dexterity": 7, "defense": 5, "speed": 5},
+      "speed"    : {"strength": 4, "dexterity": 8, "defense": 4, "speed": 6}
+    },
+    "w1": "Bow",
+    "w2": "Sword",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_SamuraiM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/03/KojiSplash.png"
+  },
+  {
+    "name": "King Zuva",
+    "stats": {
+      "base"     : {"strength": 8, "dexterity": 4, "defense": 6, "speed": 4},
+      "strength" : {"strength": 9, "dexterity": 4, "defense": 5, "speed": 4},
+      "dexterity": {"strength": 7, "dexterity": 5, "defense": 6, "speed": 4},
+      "defense"  : {"strength": 8, "dexterity": 4, "defense": 7, "speed": 3},
+      "speed"    : {"strength": 8, "dexterity": 3, "defense": 6, "speed": 5}
+    },
+    "w1": "Grapple Hammer",
+    "w2": "Battle Boots",
+    "img": "https://cms.brawlhalla.com/c/uploads/2024/10/a_Roster_Pose_ZuvaM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2024/10/ZuvaSplash-1.png"
+  },
+  {
+    "name": "Kaya",
+    "stats": {
+      "base"     : {"strength": 4, "dexterity": 4, "defense": 7, "speed": 7},
+      "strength" : {"strength": 5, "dexterity": 3, "defense": 7, "speed": 7},
+      "dexterity": {"strength": 4, "dexterity": 5, "defense": 6, "speed": 7},
+      "defense"  : {"strength": 4, "dexterity": 4, "defense": 8, "speed": 6},
+      "speed"    : {"strength": 3, "dexterity": 4, "defense": 7, "speed": 8}
+    },
+    "w1": "Spear",
+    "w2": "Bow",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_InuitM-1.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/KayaSplash.png"
+  },
+  {
+    "name": "Jiro",
+    "stats": {
+      "base"     : {"strength": 5, "dexterity": 7, "defense": 3, "speed": 7},
+      "strength" : {"strength": 6, "dexterity": 6, "defense": 3, "speed": 7},
+      "dexterity": {"strength": 5, "dexterity": 8, "defense": 3, "speed": 6},
+      "defense"  : {"strength": 4, "dexterity": 7, "defense": 4, "speed": 7},
+      "speed"    : {"strength": 5, "dexterity": 7, "defense": 2, "speed": 8}
+    },
+    "w1": "Sword",
+    "w2": "Scythe",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ShinobiM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/JiroSplash.png"
+  },
+  {
+    "name": "Jhala",
+    "stats": {
+      "base"     : {"strength": 7, "dexterity": 7, "defense": 3, "speed": 5},
+      "strength" : {"strength": 8, "dexterity": 7, "defense": 3, "speed": 4},
+      "dexterity": {"strength": 6, "dexterity": 8, "defense": 3, "speed": 5},
+      "defense"  : {"strength": 7, "dexterity": 6, "defense": 4, "speed": 5},
+      "speed"    : {"strength": 7, "dexterity": 7, "defense": 2, "speed": 6}
+    },
+    "w1": "Axe",
+    "w2": "Sword",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_BarbarianM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/03/JhalaSplash.png"
+  },
+  {
+    "name": "Jaeyun",
+    "stats": {
+      "base"     : {"strength": 6, "dexterity": 5, "defense": 5, "speed": 6},
+      "strength" : {"strength": 7, "dexterity": 4, "defense": 5, "speed": 6},
+      "dexterity": {"strength": 6, "dexterity": 6, "defense": 4, "speed": 6},
+      "defense"  : {"strength": 6, "dexterity": 5, "defense": 6, "speed": 5},
+      "speed"    : {"strength": 5, "dexterity": 5, "defense": 5, "speed": 7}
+    },
+    "w1": "Sword",
+    "w2": "Greatsword",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_SellswordM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/Jaeyun_New.png"
+  },
+  {
+    "name": "Isaiah",
+    "stats": {
+      "base"     : {"strength": 5, "dexterity": 6, "defense": 7, "speed": 4},
+      "strength" : {"strength": 6, "dexterity": 5, "defense": 7, "speed": 4},
+      "dexterity": {"strength": 5, "dexterity": 7, "defense": 6, "speed": 4},
+      "defense"  : {"strength": 5, "dexterity": 6, "defense": 8, "speed": 3},
+      "speed"    : {"strength": 4, "dexterity": 6, "defense": 7, "speed": 5}
+    },
+    "w1": "Blasters",
+    "w2": "Cannon",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_SoldierM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/IsaiahSplash.png"
+  },
+  {
+    "name": "Imugi",
+    "stats": {
+      "base"     : {"strength": 8, "dexterity": 3, "defense": 8, "speed": 3},
+      "strength" : {"strength": 9, "dexterity": 2, "defense": 8, "speed": 3},
+      "dexterity": {"strength": 7, "dexterity": 4, "defense": 8, "speed": 3},
+      "defense"  : {"strength": 8, "dexterity": 3, "defense": 9, "speed": 2},
+      "speed"    : {"strength": 8, "dexterity": 3, "defense": 7, "speed": 4}
+    },
+    "w1": "Axe",
+    "w2": "Greatsword",
+    "img": "https://cms.brawlhalla.com/c/uploads/2024/07/imgui-icon.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2024/07/Imugi-Splash.png"
+  },
+  {
+    "name": "Hattori",
+    "stats": {
+      "base"     : {"strength": 4, "dexterity": 6, "defense": 4, "speed": 8},
+      "strength" : {"strength": 5, "dexterity": 6, "defense": 3, "speed": 8},
+      "dexterity": {"strength": 3, "dexterity": 7, "defense": 4, "speed": 8},
+      "defense"  : {"strength": 4, "dexterity": 6, "defense": 5, "speed": 7},
+      "speed"    : {"strength": 4, "dexterity": 5, "defense": 4, "speed": 9}
+    },
+    "w1": "Sword",
+    "w2": "Spear",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/hattori.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/HattoriSplash.png"
+  },
+  {
+    "name": "Gnash",
+    "stats": {
+      "base"     : {"strength": 7, "dexterity": 3, "defense": 5, "speed": 7},
+      "strength" : {"strength": 8, "dexterity": 3, "defense": 5, "speed": 6},
+      "dexterity": {"strength": 6, "dexterity": 4, "defense": 5, "speed": 7},
+      "defense"  : {"strength": 7, "dexterity": 2, "defense": 6, "speed": 7},
+      "speed"    : {"strength": 7, "dexterity": 3, "defense": 4, "speed": 8}
+    },
+    "w1": "Grapple Hammer",
+    "w2": "Spear",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/gnash.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/GnashSplash.png"
+  },
+  {
+    "name": "Fait",
+    "stats": {
+      "base"     : {"strength": 7, "dexterity": 4, "defense": 4, "speed": 7},
+      "strength" : {"strength": 8, "dexterity": 4, "defense": 4, "speed": 6},
+      "dexterity": {"strength": 7, "dexterity": 5, "defense": 3, "speed": 7},
+      "defense"  : {"strength": 6, "dexterity": 4, "defense": 5, "speed": 7},
+      "speed"    : {"strength": 7, "dexterity": 3, "defense": 4, "speed": 8}
+    },
+    "w1": "Scythe",
+    "w2": "Orb",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_SpellwitchM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/FaitSplash.png"
+  },
+  {
+    "name": "Ezio",
+    "stats": {
+      "base"     : {"strength": 5, "dexterity": 7, "defense": 4, "speed": 6},
+      "strength" : {"strength": 6, "dexterity": 7, "defense": 3, "speed": 6},
+      "dexterity": {"strength": 5, "dexterity": 8, "defense": 4, "speed": 5},
+      "defense"  : {"strength": 5, "dexterity": 6, "defense": 5, "speed": 6},
+      "speed"    : {"strength": 4, "dexterity": 7, "defense": 4, "speed": 7}
+    },
+    "w1": "Sword",
+    "w2": "Orb",
+    "img": "https://cms.brawlhalla.com/c/uploads/2022/07/a_Roster_Pose_EzioM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/07/splasdhfa29482304afa234.png"
+  },
+  {
+    "name": "Ember",
+    "stats": {
+      "base"     : {"strength": 6, "dexterity": 6, "defense": 3, "speed": 7},
+      "strength" : {"strength": 7, "dexterity": 6, "defense": 2, "speed": 7},
+      "dexterity": {"strength": 5, "dexterity": 7, "defense": 3, "speed": 7},
+      "defense"  : {"strength": 6, "dexterity": 6, "defense": 4, "speed": 6},
+      "speed"    : {"strength": 6, "dexterity": 5, "defense": 3, "speed": 8}
+    },
+    "w1": "Bow",
+    "w2": "Katars",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ElfM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/EmberSplash.png"
+  },
+  {
+    "name": "Dusk",
+    "stats": {
+      "base"     : {"strength": 6, "dexterity": 7, "defense": 4, "speed": 5},
+      "strength" : {"strength": 7, "dexterity": 6, "defense": 4, "speed": 5},
+      "dexterity": {"strength": 6, "dexterity": 8, "defense": 4, "speed": 4},
+      "defense"  : {"strength": 5, "dexterity": 7, "defense": 5, "speed": 5},
+      "speed"    : {"strength": 6, "dexterity": 7, "defense": 3, "speed": 6}
+    },
+    "w1": "Spear",
+    "w2": "Orb",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ElfwarM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/DuskSplash.png"
+  },
+  {
+    "name": "Diana",
+    "stats": {
+      "base"     : {"strength": 5, "dexterity": 6, "defense": 5, "speed": 6},
+      "strength" : {"strength": 6, "dexterity": 6, "defense": 5, "speed": 5},
+      "dexterity": {"strength": 5, "dexterity": 7, "defense": 4, "speed": 6},
+      "defense"  : {"strength": 4, "dexterity": 6, "defense": 6, "speed": 6},
+      "speed"    : {"strength": 5, "dexterity": 5, "defense": 5, "speed": 7}
+    },
+    "w1": "Bow",
+    "w2": "Blasters",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_MonsterHunterM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/03/DianaSplash.png"
+  },
+  {
+    "name": "Cross",
+    "stats": {
+      "base"     : {"strength": 7, "dexterity": 4, "defense": 6, "speed": 5},
+      "strength" : {"strength": 8, "dexterity": 4, "defense": 5, "speed": 5},
+      "dexterity": {"strength": 6, "dexterity": 5, "defense": 6, "speed": 5},
+      "defense"  : {"strength": 7, "dexterity": 4, "defense": 7, "speed": 4},
+      "speed"    : {"strength": 7, "dexterity": 3, "defense": 6, "speed": 6}
+    },
+    "w1": "Blasters",
+    "w2": "Gauntlets",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_CrossM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/CrossSplashNoShadow.png"
+  },
+  {
+    "name": "Cassidy",
+    "stats": {
+      "base"     : {"strength": 6, "dexterity": 8, "defense": 4, "speed": 4},
+      "strength" : {"strength": 7, "dexterity": 8, "defense": 4, "speed": 3},
+      "dexterity": {"strength": 5, "dexterity": 9, "defense": 4, "speed": 4},
+      "defense"  : {"strength": 6, "dexterity": 7, "defense": 5, "speed": 4},
+      "speed"    : {"strength": 6, "dexterity": 8, "defense": 3, "speed": 5}
+    },
+    "w1": "Blasters",
+    "w2": "Grapple Hammer",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/cassidy.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/CassidySplash-1.png"
+  },
+  {
+    "name": "Caspian",
+    "stats": {
+      "base"     : {"strength": 7, "dexterity": 5, "defense": 4, "speed": 6},
+      "strength" : {"strength": 8, "dexterity": 5, "defense": 4, "speed": 5},
+      "dexterity": {"strength": 7, "dexterity": 6, "defense": 3, "speed": 6},
+      "defense"  : {"strength": 6, "dexterity": 5, "defense": 5, "speed": 6},
+      "speed"    : {"strength": 7, "dexterity": 4, "defense": 4, "speed": 7}
+    },
+    "w1": "Gauntlets",
+    "w2": "Katars",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ThiefM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/CaspianSplash.png"
+  },
+  {
+    "name": "Brynn",
+    "stats": {
+      "base"     : {"strength": 5, "dexterity": 5, "defense": 5, "speed": 7},
+      "strength" : {"strength": 6, "dexterity": 4, "defense": 5, "speed": 7},
+      "dexterity": {"strength": 5, "dexterity": 6, "defense": 5, "speed": 6},
+      "defense"  : {"strength": 4, "dexterity": 5, "defense": 6, "speed": 7},
+      "speed"    : {"strength": 5, "dexterity": 5, "defense": 4, "speed": 8}
+    },
+    "w1": "Axe",
+    "w2": "Spear",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ValkyrieM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/BrynnSplash.png"
+  },
+  {
+    "name": "Bödvar",
+    "stats": {
+      "base"     : {"strength": 6, "dexterity": 6, "defense": 5, "speed": 5},
+      "strength" : {"strength": 7, "dexterity": 5, "defense": 5, "speed": 5},
+      "dexterity": {"strength": 6, "dexterity": 7, "defense": 4, "speed": 5},
+      "defense"  : {"strength": 6, "dexterity": 6, "defense": 6, "speed": 4},
+      "speed"    : {"strength": 5, "dexterity": 6, "defense": 5, "speed": 6}
+    },
+    "w1": "Grapple Hammer",
+    "w2": "Sword",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/bodvar.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/BodvarSplash-1.png"
+  },
+  {
+    "name": "Barraza",
+    "stats": {
+      "base"     : {"strength": 6, "dexterity": 4, "defense": 8, "speed": 4},
+      "strength" : {"strength": 7, "dexterity": 3, "defense": 8, "speed": 4},
+      "dexterity": {"strength": 6, "dexterity": 5, "defense": 8, "speed": 3},
+      "defense"  : {"strength": 5, "dexterity": 4, "defense": 9, "speed": 4},
+      "speed"    : {"strength": 6, "dexterity": 4, "defense": 7, "speed": 5}
+    },
+    "w1": "Axe",
+    "w2": "Blasters",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ApocM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/BarrazaSplash.png"
+  },
+  {
+    "name": "Azoth",
+    "stats": {
+      "base"     : {"strength": 7, "dexterity": 5, "defense": 6, "speed": 4},
+      "strength" : {"strength": 8, "dexterity": 5, "defense": 5, "speed": 4},
+      "dexterity": {"strength": 7, "dexterity": 6, "defense": 6, "speed": 3},
+      "defense"  : {"strength": 7, "dexterity": 4, "defense": 7, "speed": 4},
+      "speed"    : {"strength": 6, "dexterity": 5, "defense": 6, "speed": 5}
+    },
+    "w1": "Bow",
+    "w2": "Axe",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_AzothM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/03/AzothSplash.png"
+  },
+  {
+    "name": "Asuri",
+    "stats": {
+      "base"     : {"strength": 4, "dexterity": 7, "defense": 5, "speed": 6},
+      "strength" : {"strength": 5, "dexterity": 6, "defense": 5, "speed": 6},
+      "dexterity": {"strength": 4, "dexterity": 8, "defense": 5, "speed": 5},
+      "defense"  : {"strength": 3, "dexterity": 7, "defense": 6, "speed": 6},
+      "speed"    : {"strength": 4, "dexterity": 7, "defense": 4, "speed": 7}
+    },
+    "w1": "Katars",
+    "w2": "Sword",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_CatM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/AsuriSplash.png"
+  },
+  {
+    "name": "Artemis",
+    "stats": {
+      "base"     : {"strength": 5, "dexterity": 5, "defense": 4, "speed": 8},
+      "strength" : {"strength": 6, "dexterity": 5, "defense": 3, "speed": 8},
+      "dexterity": {"strength": 4, "dexterity": 6, "defense": 4, "speed": 8},
+      "defense"  : {"strength": 5, "dexterity": 5, "defense": 5, "speed": 7},
+      "speed"    : {"strength": 5, "dexterity": 4, "defense": 4, "speed": 9}
+    },
+    "w1": "Rocket Lance",
+    "w2": "Scythe",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_SpaceHunterM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/05/ArtemisSplash.png"
+  },
+  {
+    "name": "Arcadia",
+    "stats": {
+      "base"     : {"strength": 7, "dexterity": 7, "defense": 4, "speed": 4},
+      "strength" : {"strength": 8, "dexterity": 7, "defense": 3, "speed": 4},
+      "dexterity": {"strength": 7, "dexterity": 8, "defense": 4, "speed": 3},
+      "defense"  : {"strength": 7, "dexterity": 6, "defense": 5, "speed": 4},
+      "speed"    : {"strength": 6, "dexterity": 7, "defense": 4, "speed": 5}
+    },
+    "w1": "Spear",
+    "w2": "Greatsword",
+    "img": "https://cms.brawlhalla.com/c/uploads/2022/03/a_Roster_Pose_FairyQueenM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/03/Arcadia_FX.png"
+  },
+  {
+    "name": "Ada",
+    "stats": {
+      "base"     : {"strength": 6, "dexterity": 7, "defense": 3, "speed": 6},
+      "strength" : {"strength": 7, "dexterity": 7, "defense": 2, "speed": 6},
+      "dexterity": {"strength": 6, "dexterity": 8, "defense": 3, "speed": 5},
+      "defense"  : {"strength": 6, "dexterity": 6, "defense": 4, "speed": 6},
+      "speed"    : {"strength": 5, "dexterity": 7, "defense": 3, "speed": 7}
+    },
+    "w1": "Blasters",
+    "w2": "Spear",
+    "img": "https://cms.brawlhalla.com/c/uploads/2021/07/ada.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2022/02/AdaSplash.png"
+  },
+  {
+    "name": "Ransom",
+    "stats": {
+      "base"     : {"strength": 7, "dexterity": 4, "defense": 3, "speed": 8},
+      "strength" : {"strength": 8, "dexterity": 3, "defense": 2, "speed": 8},
+      "dexterity": {"strength": 7, "dexterity": 5, "defense": 2, "speed": 8},
+      "defense"  : {"strength": 7, "dexterity": 4, "defense": 4, "speed": 7},
+      "speed"    : {"strength": 6, "dexterity": 4, "defense": 3, "speed": 9}
+    },
+    "w1": "Chakram",
+    "w2": "Bow",
+    "img": "https://cms.brawlhalla.com/c/uploads/2025/06/a_Roster_Pose_CybervirusM.png",
+    "b_img": "https://cms.brawlhalla.com/c/uploads/2025/06/Ransom_Official_Splash.png"
   }
 ]
